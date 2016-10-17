@@ -1,0 +1,157 @@
+2016-10-17 18:04:16 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-17 18:04:16 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-17 18:04:16 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-17 18:04:16 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-17 18:04:16 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-17 18:04:16 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-17 18:04:16 [scrapy] INFO: Spider opened
+2016-10-17 18:04:16 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-17 18:04:17 [root] INFO: valid ip: 111.162.119.55
+2016-10-17 18:04:17 [root] INFO: 111.162.119.55: can not be used!
+2016-10-17 18:04:17 [root] INFO: valid ip: 115.28.32.191
+2016-10-17 18:04:17 [root] INFO: 115.28.32.191: can not be used!
+2016-10-17 18:04:17 [root] INFO: valid ip: 113.79.35.79
+2016-10-17 18:04:20 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-10-17 18:04:20 [root] INFO: 113.79.35.79: can not be used!
+2016-10-17 18:04:20 [scrapy] INFO: Closing spider (shutdown)
+2016-10-17 18:04:20 [root] INFO: valid ip: 110.73.52.192
+2016-10-17 18:04:20 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-10-17 18:04:20 [root] INFO: 110.73.52.192: can not be used!
+2016-10-17 18:04:20 [root] INFO: valid ip: 58.198.165.78
+2016-10-17 18:04:25 [root] INFO: 58.198.165.78: can not be used!
+2016-10-17 18:07:07 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-17 18:07:07 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-17 18:07:07 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-17 18:07:07 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-17 18:07:07 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-17 18:07:07 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-17 18:07:07 [scrapy] INFO: Spider opened
+2016-10-17 18:07:07 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-17 18:07:08 [root] INFO: valid ip: 111.162.119.55
+2016-10-17 18:07:08 [root] INFO: 111.162.119.55: can not be used!
+2016-10-17 18:07:08 [root] INFO: valid ip: 115.28.32.191
+2016-10-17 18:07:13 [root] INFO: 115.28.32.191: can not be used!
+2016-10-17 18:07:13 [root] INFO: valid ip: 113.79.35.79
+2016-10-17 18:07:18 [root] INFO: 113.79.35.79: can not be used!
+2016-10-17 18:07:18 [root] INFO: valid ip: 110.73.52.192
+2016-10-17 18:07:22 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-10-17 18:07:22 [root] INFO: 110.73.52.192: can not be used!
+2016-10-17 18:07:22 [scrapy] INFO: Closing spider (shutdown)
+2016-10-17 18:07:22 [root] INFO: valid ip: 58.198.165.78
+2016-10-17 18:07:23 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-10-17 18:07:23 [root] INFO: 58.198.165.78: can not be used!
+2016-10-17 18:07:23 [root] INFO: valid ip: 139.217.12.132
+2016-10-17 18:07:28 [root] INFO: 139.217.12.132: can not be used!
+2016-10-17 18:27:27 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-17 18:27:27 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-17 18:27:27 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-17 18:27:27 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-17 18:27:27 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-17 18:27:27 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-17 18:27:27 [scrapy] INFO: Spider opened
+2016-10-17 18:27:27 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-17 18:27:27 [root] INFO: valid ip: 111.162.119.55
+2016-10-17 18:27:28 [root] INFO: 111.162.119.55: can not be used!
+2016-10-17 18:27:28 [root] INFO: valid ip: 115.28.32.191
+2016-10-17 18:27:29 [root] INFO: 115.28.32.191: can not be used!
+2016-10-17 18:27:29 [root] INFO: valid ip: 113.79.35.79
+2016-10-17 18:27:34 [root] INFO: 113.79.35.79: can not be used!
+2016-10-17 18:27:34 [root] INFO: valid ip: 110.73.52.192
+2016-10-17 18:27:39 [root] INFO: 110.73.52.192: can not be used!
+2016-10-17 18:27:39 [root] INFO: valid ip: 58.198.165.78
+2016-10-17 18:27:44 [root] INFO: 58.198.165.78: can not be used!
+2016-10-17 18:27:44 [root] INFO: valid ip: 139.217.12.132
+2016-10-17 18:27:49 [root] INFO: 139.217.12.132: can not be used!
+2016-10-17 18:27:49 [root] INFO: valid ip: 114.227.39.143
+2016-10-17 18:27:49 [root] INFO: 114.227.39.143: can not be used!
+2016-10-17 18:27:49 [root] INFO: valid ip: 222.206.90.52
+2016-10-17 18:27:54 [root] INFO: 222.206.90.52: can not be used!
+2016-10-17 18:27:54 [root] INFO: valid ip: 115.28.1.194
+2016-10-17 18:27:59 [root] INFO: 115.28.1.194: can not be used!
+2016-10-17 18:27:59 [root] INFO: valid ip: 211.161.194.220
+2016-10-17 18:27:59 [root] INFO: 211.161.194.220: can not be used!
+2016-10-17 18:27:59 [root] INFO: valid ip: 183.141.157.201
+2016-10-17 18:28:04 [root] INFO: 183.141.157.201: can not be used!
+2016-10-17 18:28:04 [root] INFO: valid ip: 49.67.55.85
+2016-10-17 18:28:04 [root] INFO: 49.67.55.85: can not be used!
+2016-10-17 18:28:04 [root] INFO: valid ip: 223.106.35.184
+2016-10-17 18:28:09 [root] INFO: 223.106.35.184: can not be used!
+2016-10-17 18:28:09 [root] INFO: valid ip: 171.38.167.40
+2016-10-17 18:28:14 [root] INFO: 171.38.167.40: can not be used!
+2016-10-17 18:28:14 [root] INFO: valid ip: 60.185.130.245
+2016-10-17 18:28:19 [root] INFO: 60.185.130.245: can not be used!
+2016-10-17 18:28:19 [root] INFO: valid ip: 121.31.102.138
+2016-10-17 18:28:24 [root] INFO: 121.31.102.138: can not be used!
+2016-10-17 18:28:24 [root] INFO: valid ip: 117.86.92.45
+2016-10-17 18:28:24 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-10-17 18:28:24 [root] INFO: 117.86.92.45: can not be used!
+2016-10-17 18:28:24 [root] INFO: valid ip: 115.29.76.108
+2016-10-17 18:28:24 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-10-17 18:28:25 [root] INFO: 115.29.76.108: can not be used!
+2016-10-17 18:28:25 [scrapy] INFO: Closing spider (shutdown)
+2016-10-17 18:28:25 [root] INFO: valid ip: 123.124.168.107
+2016-10-17 18:28:29 [root] INFO: 123.124.168.107added to MongoDB database!
+2016-10-17 18:28:29 [root] INFO: valid ip: 115.29.37.86
+2016-10-17 18:28:34 [root] INFO: 115.29.37.86: can not be used!
+2016-10-17 18:28:34 [root] INFO: valid ip: 111.206.218.4
+2016-10-17 18:28:39 [root] INFO: 111.206.218.4: can not be used!
