@@ -155,3 +155,1863 @@
 2016-10-17 18:28:34 [root] INFO: 115.29.37.86: can not be used!
 2016-10-17 18:28:34 [root] INFO: valid ip: 111.206.218.4
 2016-10-17 18:28:39 [root] INFO: 111.206.218.4: can not be used!
+2016-10-18 08:54:27 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-18 08:54:27 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-18 08:54:27 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-18 08:54:27 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-18 08:54:27 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-18 08:54:27 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-18 08:54:27 [scrapy] INFO: Spider opened
+2016-10-18 08:54:27 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-18 08:54:27 [root] INFO: valid ip: 114.99.15.176
+2016-10-18 08:54:27 [root] INFO: 114.99.15.176: can not be used!
+2016-10-18 08:54:27 [root] INFO: valid ip: 171.212.136.54
+2016-10-18 08:54:27 [root] INFO: 171.212.136.54: can not be used!
+2016-10-18 08:54:27 [root] INFO: valid ip: 123.152.99.206
+2016-10-18 08:54:27 [root] INFO: 123.152.99.206: can not be used!
+2016-10-18 08:54:27 [root] INFO: valid ip: 183.37.8.138
+2016-10-18 08:54:27 [root] INFO: 183.37.8.138: can not be used!
+2016-10-18 08:54:27 [root] INFO: valid ip: 117.162.38.196
+2016-10-18 08:54:32 [root] INFO: 117.162.38.196: can not be used!
+2016-10-18 08:54:32 [root] INFO: valid ip: 163.125.221.213
+2016-10-18 08:54:37 [root] INFO: 163.125.221.213: can not be used!
+2016-10-18 08:54:37 [root] INFO: valid ip: 223.99.254.99
+2016-10-18 08:54:37 [root] INFO: 223.99.254.99added to MongoDB database!
+2016-10-18 08:54:37 [root] INFO: valid ip: 202.112.26.111
+2016-10-18 08:54:43 [root] INFO: 202.112.26.111: can not be used!
+2016-10-18 08:54:43 [root] INFO: valid ip: 110.73.4.221
+2016-10-18 08:54:48 [root] INFO: 110.73.4.221: can not be used!
+2016-10-18 08:54:48 [root] INFO: valid ip: 116.226.26.182
+2016-10-18 08:54:48 [root] INFO: 116.226.26.182: can not be used!
+2016-10-18 08:54:48 [root] INFO: valid ip: 219.150.189.212
+2016-10-18 08:54:48 [root] INFO: 219.150.189.212: can not be used!
+2016-10-18 08:54:48 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 08:54:48 [root] INFO: 218.106.205.145: can not be used!
+2016-10-18 08:54:48 [root] INFO: valid ip: 183.129.178.14
+2016-10-18 08:54:53 [root] INFO: 183.129.178.14: can not be used!
+2016-10-18 08:54:53 [root] INFO: valid ip: 221.212.216.170
+2016-10-18 08:54:55 [root] INFO: 221.212.216.170: can not be used!
+2016-10-18 08:54:55 [root] INFO: valid ip: 111.162.119.55
+2016-10-18 08:55:00 [root] INFO: 111.162.119.55: can not be used!
+2016-10-18 08:55:00 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 08:55:02 [root] INFO: 111.13.7.42added to MongoDB database!
+2016-10-18 08:55:02 [root] INFO: valid ip: 115.28.32.191
+2016-10-18 08:55:03 [root] INFO: 115.28.32.191: can not be used!
+2016-10-18 08:55:03 [root] INFO: valid ip: 113.79.35.79
+2016-10-18 08:55:08 [root] INFO: 113.79.35.79: can not be used!
+2016-10-18 08:55:08 [root] INFO: valid ip: 110.73.52.192
+2016-10-18 08:55:13 [root] INFO: 110.73.52.192: can not be used!
+2016-10-18 08:55:13 [root] INFO: valid ip: 58.198.165.78
+2016-10-18 08:55:13 [root] INFO: 58.198.165.78: can not be used!
+2016-10-18 08:55:13 [root] INFO: valid ip: 211.161.194.220
+2016-10-18 08:55:15 [root] INFO: 211.161.194.220: can not be used!
+2016-10-18 08:55:15 [root] INFO: valid ip: 139.217.12.132
+2016-10-18 08:55:23 [root] INFO: 139.217.12.132: can not be used!
+2016-10-18 08:55:23 [root] INFO: valid ip: 49.67.55.85
+2016-10-18 08:55:23 [root] INFO: 49.67.55.85: can not be used!
+2016-10-18 08:55:23 [root] INFO: valid ip: 114.227.39.143
+2016-10-18 08:55:23 [root] INFO: 114.227.39.143: can not be used!
+2016-10-18 08:55:23 [root] INFO: valid ip: 171.38.167.40
+2016-10-18 08:55:28 [root] INFO: 171.38.167.40: can not be used!
+2016-10-18 08:55:28 [root] INFO: valid ip: 222.206.90.52
+2016-10-18 08:55:28 [root] INFO: 222.206.90.52: can not be used!
+2016-10-18 08:55:28 [scrapy] INFO: Crawled 4 pages (at 4 pages/min), scraped 26 items (at 26 items/min)
+2016-10-18 08:55:28 [root] INFO: valid ip: 121.31.102.138
+2016-10-18 08:55:33 [root] INFO: 121.31.102.138: can not be used!
+2016-10-18 08:55:33 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 08:55:38 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 08:55:38 [root] INFO: valid ip: 123.124.168.107
+2016-10-18 08:55:38 [root] INFO: 123.124.168.107: can not be used!
+2016-10-18 08:55:38 [root] INFO: valid ip: 183.141.157.201
+2016-10-18 08:55:43 [root] INFO: 183.141.157.201: can not be used!
+2016-10-18 08:55:43 [root] INFO: valid ip: 117.86.92.45
+2016-10-18 08:55:48 [root] INFO: 117.86.92.45: can not be used!
+2016-10-18 08:55:48 [root] INFO: valid ip: 171.42.240.60
+2016-10-18 08:55:48 [root] INFO: 171.42.240.60: can not be used!
+2016-10-18 08:55:48 [root] INFO: valid ip: 223.106.35.184
+2016-10-18 08:55:53 [root] INFO: 223.106.35.184: can not be used!
+2016-10-18 08:55:53 [root] INFO: valid ip: 115.29.37.86
+2016-10-18 08:55:58 [root] INFO: 115.29.37.86: can not be used!
+2016-10-18 08:55:58 [root] INFO: valid ip: 183.141.150.97
+2016-10-18 08:56:03 [root] INFO: 183.141.150.97: can not be used!
+2016-10-18 08:56:03 [root] INFO: valid ip: 60.185.130.245
+2016-10-18 08:56:08 [root] INFO: 60.185.130.245: can not be used!
+2016-10-18 08:56:08 [root] INFO: valid ip: 27.210.209.192
+2016-10-18 08:56:13 [root] INFO: 27.210.209.192: can not be used!
+2016-10-18 08:56:13 [root] INFO: valid ip: 183.57.17.194
+2016-10-18 08:56:14 [root] INFO: 183.57.17.194added to MongoDB database!
+2016-10-18 08:56:14 [root] INFO: valid ip: 115.29.76.108
+2016-10-18 08:56:14 [root] INFO: 115.29.76.108: can not be used!
+2016-10-18 08:56:14 [root] INFO: valid ip: 121.19.191.206
+2016-10-18 08:56:19 [root] INFO: 121.19.191.206: can not be used!
+2016-10-18 08:56:19 [root] INFO: valid ip: 125.83.192.131
+2016-10-18 08:56:19 [root] INFO: 125.83.192.131: can not be used!
+2016-10-18 08:56:19 [root] INFO: valid ip: 117.60.52.154
+2016-10-18 08:56:24 [root] INFO: 117.60.52.154: can not be used!
+2016-10-18 08:56:24 [root] INFO: valid ip: 111.206.218.4
+2016-10-18 08:56:25 [root] INFO: 111.206.218.4added to MongoDB database!
+2016-10-18 08:56:25 [root] INFO: valid ip: 123.124.168.149
+2016-10-18 08:56:30 [root] INFO: 123.124.168.149: can not be used!
+2016-10-18 08:56:30 [root] INFO: valid ip: 221.212.216.170
+2016-10-18 08:56:33 [root] INFO: 221.212.216.170: can not be used!
+2016-10-18 08:56:33 [root] INFO: valid ip: 110.81.160.60
+2016-10-18 08:56:38 [root] INFO: 110.81.160.60: can not be used!
+2016-10-18 08:56:38 [root] INFO: valid ip: 139.196.140.9
+2016-10-18 08:56:42 [root] INFO: 139.196.140.9added to MongoDB database!
+2016-10-18 08:56:42 [root] INFO: valid ip: 14.154.145.10
+2016-10-18 08:56:42 [root] INFO: 14.154.145.10: can not be used!
+2016-10-18 08:56:42 [scrapy] INFO: Crawled 6 pages (at 2 pages/min), scraped 48 items (at 22 items/min)
+2016-10-18 08:56:42 [root] INFO: valid ip: 120.132.90.233
+2016-10-18 08:56:44 [root] INFO: 120.132.90.233: can not be used!
+2016-10-18 08:56:44 [root] INFO: valid ip: 106.2.123.10
+2016-10-18 08:56:48 [root] INFO: 106.2.123.10: can not be used!
+2016-10-18 08:56:48 [root] INFO: valid ip: 27.159.127.180
+2016-10-18 08:56:53 [root] INFO: 27.159.127.180: can not be used!
+2016-10-18 08:56:53 [root] INFO: valid ip: 123.168.129.54
+2016-10-18 08:56:58 [root] INFO: 123.168.129.54: can not be used!
+2016-10-18 08:56:58 [root] INFO: valid ip: 175.154.84.58
+2016-10-18 08:56:58 [root] INFO: 175.154.84.58: can not be used!
+2016-10-18 08:56:58 [root] INFO: valid ip: 115.159.92.253
+2016-10-18 08:57:03 [root] INFO: 115.159.92.253: can not be used!
+2016-10-18 08:57:03 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 08:57:03 [root] INFO: 218.14.121.237added to MongoDB database!
+2016-10-18 08:57:03 [root] INFO: valid ip: 42.159.153.7
+2016-10-18 08:57:09 [root] INFO: 42.159.153.7: can not be used!
+2016-10-18 08:57:09 [root] INFO: valid ip: 101.6.50.117
+2016-10-18 08:57:14 [root] INFO: 101.6.50.117: can not be used!
+2016-10-18 08:57:14 [root] INFO: valid ip: 222.82.222.242
+2016-10-18 08:57:14 [root] INFO: 222.82.222.242: can not be used!
+2016-10-18 08:57:14 [root] INFO: valid ip: 125.124.131.6
+2016-10-18 08:57:14 [root] INFO: 125.124.131.6: can not be used!
+2016-10-18 08:57:14 [root] INFO: valid ip: 60.167.112.187
+2016-10-18 08:57:14 [root] INFO: 60.167.112.187: can not be used!
+2016-10-18 08:57:14 [root] INFO: valid ip: 115.159.92.253
+2016-10-18 08:57:19 [root] INFO: 115.159.92.253: can not be used!
+2016-10-18 08:57:19 [root] INFO: valid ip: 106.82.154.45
+2016-10-18 08:57:24 [root] INFO: 106.82.154.45: can not be used!
+2016-10-18 08:57:24 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 08:57:29 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 08:57:29 [root] INFO: valid ip: 124.17.26.91
+2016-10-18 08:57:34 [root] INFO: 124.17.26.91: can not be used!
+2016-10-18 08:57:34 [root] INFO: valid ip: 222.188.88.10
+2016-10-18 08:57:39 [root] INFO: 222.188.88.10: can not be used!
+2016-10-18 08:57:39 [root] INFO: valid ip: 115.209.28.61
+2016-10-18 08:57:44 [root] INFO: 115.209.28.61: can not be used!
+2016-10-18 08:57:44 [root] INFO: valid ip: 117.29.203.160
+2016-10-18 08:57:49 [root] INFO: 117.29.203.160: can not be used!
+2016-10-18 08:57:49 [root] INFO: valid ip: 117.170.6.54
+2016-10-18 08:57:54 [root] INFO: 117.170.6.54: can not be used!
+2016-10-18 08:57:54 [scrapy] INFO: Crawled 9 pages (at 3 pages/min), scraped 68 items (at 20 items/min)
+2016-10-18 08:57:54 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 08:58:02 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 08:58:02 [root] INFO: valid ip: 123.233.208.87
+2016-10-18 08:58:02 [root] INFO: 123.233.208.87added to MongoDB database!
+2016-10-18 08:58:02 [root] INFO: valid ip: 49.66.114.119
+2016-10-18 08:58:07 [root] INFO: 49.66.114.119: can not be used!
+2016-10-18 08:58:07 [root] INFO: valid ip: 101.94.205.153
+2016-10-18 08:58:12 [root] INFO: 101.94.205.153: can not be used!
+2016-10-18 08:58:12 [root] INFO: valid ip: 119.125.116.77
+2016-10-18 08:58:12 [root] INFO: 119.125.116.77: can not be used!
+2016-10-18 08:58:12 [root] INFO: valid ip: 116.7.120.96
+2016-10-18 08:58:17 [root] INFO: 116.7.120.96: can not be used!
+2016-10-18 08:58:17 [root] INFO: valid ip: 123.124.168.149
+2016-10-18 08:58:22 [root] INFO: 123.124.168.149: can not be used!
+2016-10-18 08:58:22 [root] INFO: valid ip: 219.141.25.173
+2016-10-18 08:58:22 [root] INFO: 219.141.25.173: can not be used!
+2016-10-18 08:58:22 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 08:58:27 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 08:58:27 [root] INFO: valid ip: 182.89.6.23
+2016-10-18 08:58:32 [root] INFO: 182.89.6.23: can not be used!
+2016-10-18 08:58:32 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 08:58:37 [root] INFO: 122.96.59.106: can not be used!
+2016-10-18 08:58:37 [root] INFO: valid ip: 117.162.248.143
+2016-10-18 08:58:42 [root] INFO: 117.162.248.143: can not be used!
+2016-10-18 08:58:42 [root] INFO: valid ip: 60.185.143.194
+2016-10-18 08:58:47 [root] INFO: 60.185.143.194: can not be used!
+2016-10-18 08:58:47 [root] INFO: valid ip: 183.141.158.163
+2016-10-18 08:58:52 [root] INFO: 183.141.158.163: can not be used!
+2016-10-18 08:58:52 [scrapy] INFO: Crawled 10 pages (at 1 pages/min), scraped 82 items (at 14 items/min)
+2016-10-18 08:58:52 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 08:58:57 [root] INFO: 122.96.59.106: can not be used!
+2016-10-18 08:58:57 [root] INFO: valid ip: 58.251.206.192
+2016-10-18 08:58:57 [root] INFO: 58.251.206.192: can not be used!
+2016-10-18 08:58:57 [root] INFO: valid ip: 182.90.59.182
+2016-10-18 08:59:02 [root] INFO: 182.90.59.182: can not be used!
+2016-10-18 08:59:02 [root] INFO: valid ip: 119.139.133.45
+2016-10-18 08:59:02 [root] INFO: 119.139.133.45: can not be used!
+2016-10-18 08:59:02 [root] INFO: valid ip: 115.46.95.130
+2016-10-18 08:59:07 [root] INFO: 115.46.95.130: can not be used!
+2016-10-18 08:59:07 [root] INFO: valid ip: 118.202.10.159
+2016-10-18 08:59:12 [root] INFO: 118.202.10.159: can not be used!
+2016-10-18 08:59:12 [root] INFO: valid ip: 183.141.109.81
+2016-10-18 08:59:17 [root] INFO: 183.141.109.81: can not be used!
+2016-10-18 08:59:17 [root] INFO: valid ip: 171.39.34.79
+2016-10-18 08:59:22 [root] INFO: 171.39.34.79: can not be used!
+2016-10-18 08:59:22 [root] INFO: valid ip: 115.28.2.233
+2016-10-18 08:59:30 [root] INFO: 115.28.2.233: can not be used!
+2016-10-18 08:59:30 [root] INFO: valid ip: 222.138.67.50
+2016-10-18 08:59:35 [root] INFO: 222.138.67.50: can not be used!
+2016-10-18 08:59:35 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 08:59:43 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 08:59:43 [root] INFO: valid ip: 123.152.79.171
+2016-10-18 08:59:48 [root] INFO: 123.152.79.171: can not be used!
+2016-10-18 08:59:48 [root] INFO: valid ip: 121.31.101.110
+2016-10-18 08:59:53 [root] INFO: 121.31.101.110: can not be used!
+2016-10-18 08:59:53 [root] INFO: valid ip: 183.141.157.144
+2016-10-18 08:59:58 [root] INFO: 183.141.157.144: can not be used!
+2016-10-18 08:59:58 [root] INFO: valid ip: 182.88.185.73
+2016-10-18 09:00:04 [root] INFO: 182.88.185.73: can not be used!
+2016-10-18 09:00:04 [scrapy] INFO: Crawled 11 pages (at 1 pages/min), scraped 97 items (at 15 items/min)
+2016-10-18 09:00:04 [root] INFO: valid ip: 180.125.88.198
+2016-10-18 09:00:09 [root] INFO: 180.125.88.198: can not be used!
+2016-10-18 09:00:09 [root] INFO: valid ip: 117.170.119.13
+2016-10-18 09:00:14 [root] INFO: 117.170.119.13: can not be used!
+2016-10-18 09:00:14 [root] INFO: valid ip: 14.148.236.124
+2016-10-18 09:00:19 [root] INFO: 14.148.236.124: can not be used!
+2016-10-18 09:00:19 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:00:19 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:00:19 [root] INFO: valid ip: 121.31.102.80
+2016-10-18 09:00:24 [root] INFO: 121.31.102.80: can not be used!
+2016-10-18 09:00:24 [root] INFO: valid ip: 182.91.251.140
+2016-10-18 09:00:29 [root] INFO: 182.91.251.140: can not be used!
+2016-10-18 09:00:29 [root] INFO: valid ip: 118.202.10.159
+2016-10-18 09:00:34 [root] INFO: 118.202.10.159: can not be used!
+2016-10-18 09:00:34 [root] INFO: valid ip: 58.52.156.70
+2016-10-18 09:00:39 [root] INFO: 58.52.156.70: can not be used!
+2016-10-18 09:00:39 [root] INFO: valid ip: 222.172.132.102
+2016-10-18 09:00:44 [root] INFO: 222.172.132.102: can not be used!
+2016-10-18 09:00:44 [root] INFO: valid ip: 171.39.24.219
+2016-10-18 09:00:49 [root] INFO: 171.39.24.219: can not be used!
+2016-10-18 09:00:49 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:00:54 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:00:54 [root] INFO: valid ip: 60.182.9.79
+2016-10-18 09:00:54 [root] INFO: 60.182.9.79: can not be used!
+2016-10-18 09:00:54 [scrapy] INFO: Crawled 11 pages (at 0 pages/min), scraped 109 items (at 12 items/min)
+2016-10-18 09:00:54 [root] INFO: valid ip: 121.56.188.234
+2016-10-18 09:00:59 [root] INFO: 121.56.188.234: can not be used!
+2016-10-18 09:00:59 [root] INFO: valid ip: 183.141.158.51
+2016-10-18 09:00:59 [root] INFO: 183.141.158.51: can not be used!
+2016-10-18 09:00:59 [root] INFO: valid ip: 116.226.28.132
+2016-10-18 09:00:59 [root] INFO: 116.226.28.132: can not be used!
+2016-10-18 09:00:59 [root] INFO: valid ip: 58.214.157.153
+2016-10-18 09:01:04 [root] INFO: 58.214.157.153: can not be used!
+2016-10-18 09:01:04 [root] INFO: valid ip: 49.73.170.139
+2016-10-18 09:01:09 [root] INFO: 49.73.170.139: can not be used!
+2016-10-18 09:01:09 [root] INFO: valid ip: 124.42.7.103
+2016-10-18 09:01:14 [root] INFO: 124.42.7.103: can not be used!
+2016-10-18 09:01:14 [root] INFO: valid ip: 175.10.191.41
+2016-10-18 09:01:19 [root] INFO: 175.10.191.41: can not be used!
+2016-10-18 09:01:19 [root] INFO: valid ip: 14.109.201.249
+2016-10-18 09:01:24 [root] INFO: 14.109.201.249: can not be used!
+2016-10-18 09:01:24 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:01:27 [root] INFO: 111.1.3.36added to MongoDB database!
+2016-10-18 09:01:27 [root] INFO: valid ip: 60.21.206.175
+2016-10-18 09:01:32 [root] INFO: 60.21.206.175: can not be used!
+2016-10-18 09:01:32 [root] INFO: valid ip: 180.121.253.124
+2016-10-18 09:01:37 [root] INFO: 180.121.253.124: can not be used!
+2016-10-18 09:01:37 [root] INFO: valid ip: 123.233.208.87
+2016-10-18 09:01:45 [root] INFO: 123.233.208.87: can not be used!
+2016-10-18 09:01:45 [root] INFO: valid ip: 211.143.45.216
+2016-10-18 09:01:50 [root] INFO: 211.143.45.216: can not be used!
+2016-10-18 09:01:50 [root] INFO: valid ip: 182.89.4.170
+2016-10-18 09:01:55 [root] INFO: 182.89.4.170: can not be used!
+2016-10-18 09:01:55 [root] INFO: valid ip: 124.117.20.146
+2016-10-18 09:01:55 [root] INFO: 124.117.20.146: can not be used!
+2016-10-18 09:01:55 [scrapy] INFO: Crawled 14 pages (at 3 pages/min), scraped 124 items (at 15 items/min)
+2016-10-18 09:01:55 [root] INFO: valid ip: 61.179.153.178
+2016-10-18 09:02:00 [root] INFO: 61.179.153.178: can not be used!
+2016-10-18 09:02:00 [root] INFO: valid ip: 110.73.4.107
+2016-10-18 09:02:05 [root] INFO: 110.73.4.107: can not be used!
+2016-10-18 09:02:05 [root] INFO: valid ip: 210.32.191.171
+2016-10-18 09:02:10 [root] INFO: 210.32.191.171: can not be used!
+2016-10-18 09:02:10 [root] INFO: valid ip: 116.226.61.246
+2016-10-18 09:02:15 [root] INFO: 116.226.61.246: can not be used!
+2016-10-18 09:02:15 [root] INFO: valid ip: 101.19.92.253
+2016-10-18 09:02:20 [root] INFO: 101.19.92.253: can not be used!
+2016-10-18 09:02:20 [root] INFO: valid ip: 166.111.71.60
+2016-10-18 09:02:25 [root] INFO: 166.111.71.60: can not be used!
+2016-10-18 09:02:25 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:02:30 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:02:30 [root] INFO: valid ip: 1.85.139.66
+2016-10-18 09:02:30 [root] INFO: 1.85.139.66: can not be used!
+2016-10-18 09:02:30 [root] INFO: valid ip: 42.122.43.118
+2016-10-18 09:02:30 [root] INFO: 42.122.43.118: can not be used!
+2016-10-18 09:02:30 [root] INFO: valid ip: 171.37.132.45
+2016-10-18 09:02:30 [root] INFO: 171.37.132.45: can not be used!
+2016-10-18 09:02:30 [root] INFO: valid ip: 112.114.60.236
+2016-10-18 09:02:35 [root] INFO: 112.114.60.236: can not be used!
+2016-10-18 09:02:35 [root] INFO: valid ip: 111.75.100.230
+2016-10-18 09:02:35 [root] INFO: 111.75.100.230: can not be used!
+2016-10-18 09:02:35 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:02:40 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:02:40 [root] INFO: valid ip: 113.79.75.141
+2016-10-18 09:02:45 [root] INFO: 113.79.75.141: can not be used!
+2016-10-18 09:02:45 [scrapy] INFO: Crawled 16 pages (at 2 pages/min), scraped 138 items (at 14 items/min)
+2016-10-18 09:02:45 [root] INFO: valid ip: 110.73.42.119
+2016-10-18 09:02:50 [root] INFO: 110.73.42.119: can not be used!
+2016-10-18 09:02:50 [root] INFO: valid ip: 58.250.190.8
+2016-10-18 09:02:50 [root] INFO: 58.250.190.8: can not be used!
+2016-10-18 09:02:50 [root] INFO: valid ip: 106.112.163.34
+2016-10-18 09:02:55 [root] INFO: 106.112.163.34: can not be used!
+2016-10-18 09:02:55 [root] INFO: valid ip: 115.205.11.192
+2016-10-18 09:02:55 [root] INFO: 115.205.11.192: can not be used!
+2016-10-18 09:02:55 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:03:00 [root] INFO: 122.96.59.106: can not be used!
+2016-10-18 09:03:00 [root] INFO: valid ip: 182.132.134.62
+2016-10-18 09:03:05 [root] INFO: 182.132.134.62: can not be used!
+2016-10-18 09:03:05 [root] INFO: valid ip: 175.155.149.23
+2016-10-18 09:03:10 [root] INFO: 175.155.149.23: can not be used!
+2016-10-18 09:03:10 [root] INFO: valid ip: 114.113.126.32
+2016-10-18 09:03:10 [root] INFO: 114.113.126.32: can not be used!
+2016-10-18 09:03:10 [root] INFO: valid ip: 122.228.179.178
+2016-10-18 09:03:15 [root] INFO: 122.228.179.178: can not be used!
+2016-10-18 09:03:15 [root] INFO: valid ip: 182.88.231.176
+2016-10-18 09:03:15 [root] INFO: 182.88.231.176: can not be used!
+2016-10-18 09:03:15 [root] INFO: valid ip: 110.73.43.238
+2016-10-18 09:03:20 [root] INFO: 110.73.43.238: can not be used!
+2016-10-18 09:03:20 [root] INFO: valid ip: 60.173.35.210
+2016-10-18 09:03:25 [root] INFO: 60.173.35.210: can not be used!
+2016-10-18 09:03:25 [root] INFO: valid ip: 61.171.52.104
+2016-10-18 09:03:30 [root] INFO: 61.171.52.104: can not be used!
+2016-10-18 09:03:30 [root] INFO: valid ip: 123.127.8.248
+2016-10-18 09:03:30 [root] INFO: 123.127.8.248: can not be used!
+2016-10-18 09:03:30 [root] INFO: valid ip: 14.154.211.201
+2016-10-18 09:03:35 [root] INFO: 14.154.211.201: can not be used!
+2016-10-18 09:03:35 [root] INFO: valid ip: 139.196.44.232
+2016-10-18 09:03:35 [root] INFO: 139.196.44.232: can not be used!
+2016-10-18 09:03:35 [root] INFO: valid ip: 119.90.35.54
+2016-10-18 09:03:36 [root] INFO: 119.90.35.54: can not be used!
+2016-10-18 09:03:36 [root] INFO: valid ip: 114.216.209.80
+2016-10-18 09:03:41 [root] INFO: 114.216.209.80: can not be used!
+2016-10-18 09:03:41 [root] INFO: valid ip: 115.29.37.86
+2016-10-18 09:03:44 [root] INFO: 115.29.37.86: can not be used!
+2016-10-18 09:03:44 [root] INFO: valid ip: 183.153.23.60
+2016-10-18 09:03:49 [root] INFO: 183.153.23.60: can not be used!
+2016-10-18 09:03:49 [root] INFO: valid ip: 210.22.138.109
+2016-10-18 09:03:54 [root] INFO: 210.22.138.109: can not be used!
+2016-10-18 09:03:54 [root] INFO: valid ip: 183.207.177.148
+2016-10-18 09:03:55 [root] INFO: 183.207.177.148: can not be used!
+2016-10-18 09:03:55 [scrapy] INFO: Crawled 16 pages (at 0 pages/min), scraped 160 items (at 22 items/min)
+2016-10-18 09:03:55 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:03:55 [root] INFO: 111.1.3.36: had been existed!
+2016-10-18 09:03:55 [root] INFO: valid ip: 27.215.6.255
+2016-10-18 09:03:55 [root] INFO: 27.215.6.255: can not be used!
+2016-10-18 09:03:55 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 09:03:55 [root] INFO: 218.106.205.145: can not be used!
+2016-10-18 09:03:55 [root] INFO: valid ip: 183.207.177.145
+2016-10-18 09:03:55 [root] INFO: 183.207.177.145: can not be used!
+2016-10-18 09:03:55 [root] INFO: valid ip: 101.94.205.153
+2016-10-18 09:04:00 [root] INFO: 101.94.205.153: can not be used!
+2016-10-18 09:04:00 [root] INFO: valid ip: 120.132.2.201
+2016-10-18 09:04:00 [root] INFO: 120.132.2.201: can not be used!
+2016-10-18 09:04:00 [root] INFO: valid ip: 182.241.46.50
+2016-10-18 09:04:00 [root] INFO: 182.241.46.50: can not be used!
+2016-10-18 09:04:00 [root] INFO: valid ip: 49.68.122.75
+2016-10-18 09:04:00 [root] INFO: 49.68.122.75: can not be used!
+2016-10-18 09:04:00 [root] INFO: valid ip: 122.70.119.162
+2016-10-18 09:04:05 [root] INFO: 122.70.119.162: can not be used!
+2016-10-18 09:04:05 [root] INFO: valid ip: 123.233.152.176
+2016-10-18 09:04:10 [root] INFO: 123.233.152.176: can not be used!
+2016-10-18 09:04:10 [root] INFO: valid ip: 113.12.236.114
+2016-10-18 09:04:15 [root] INFO: 113.12.236.114: can not be used!
+2016-10-18 09:04:15 [root] INFO: valid ip: 123.169.87.45
+2016-10-18 09:04:20 [root] INFO: 123.169.87.45: can not be used!
+2016-10-18 09:04:20 [root] INFO: valid ip: 106.2.123.10
+2016-10-18 09:04:25 [root] INFO: 106.2.123.10: can not be used!
+2016-10-18 09:04:25 [root] INFO: valid ip: 114.113.126.32
+2016-10-18 09:04:25 [root] INFO: 114.113.126.32: can not be used!
+2016-10-18 09:04:25 [root] INFO: valid ip: 221.229.204.231
+2016-10-18 09:04:30 [root] INFO: 221.229.204.231: can not be used!
+2016-10-18 09:04:30 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:04:31 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:04:31 [root] INFO: valid ip: 1.83.71.80
+2016-10-18 09:04:36 [root] INFO: 1.83.71.80: can not be used!
+2016-10-18 09:04:36 [root] INFO: valid ip: 182.108.225.177
+2016-10-18 09:04:41 [root] INFO: 182.108.225.177: can not be used!
+2016-10-18 09:04:41 [root] INFO: valid ip: 183.141.150.59
+2016-10-18 09:04:46 [root] INFO: 183.141.150.59: can not be used!
+2016-10-18 09:04:46 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:04:53 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:04:53 [root] INFO: valid ip: 182.43.130.79
+2016-10-18 09:04:58 [root] INFO: 182.43.130.79: can not be used!
+2016-10-18 09:04:58 [root] INFO: valid ip: 117.57.41.222
+2016-10-18 09:05:03 [root] INFO: 117.57.41.222: can not be used!
+2016-10-18 09:05:03 [scrapy] INFO: Crawled 17 pages (at 1 pages/min), scraped 182 items (at 22 items/min)
+2016-10-18 09:05:03 [root] INFO: valid ip: 122.237.242.228
+2016-10-18 09:05:04 [root] INFO: 122.237.242.228: can not be used!
+2016-10-18 09:05:04 [root] INFO: valid ip: 61.143.158.238
+2016-10-18 09:05:09 [root] INFO: 61.143.158.238: can not be used!
+2016-10-18 09:05:09 [root] INFO: valid ip: 59.44.145.74
+2016-10-18 09:05:14 [root] INFO: 59.44.145.74: can not be used!
+2016-10-18 09:05:14 [root] INFO: valid ip: 110.73.42.249
+2016-10-18 09:05:19 [root] INFO: 110.73.42.249: can not be used!
+2016-10-18 09:05:19 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:05:19 [root] INFO: 111.1.3.36: had been existed!
+2016-10-18 09:05:19 [root] INFO: valid ip: 117.81.205.90
+2016-10-18 09:05:24 [root] INFO: 117.81.205.90: can not be used!
+2016-10-18 09:05:24 [root] INFO: valid ip: 120.90.6.92
+2016-10-18 09:05:25 [root] INFO: 120.90.6.92added to MongoDB database!
+2016-10-18 09:05:25 [root] INFO: valid ip: 49.83.90.246
+2016-10-18 09:05:30 [root] INFO: 49.83.90.246: can not be used!
+2016-10-18 09:05:30 [root] INFO: valid ip: 119.29.252.110
+2016-10-18 09:05:30 [root] INFO: 119.29.252.110: can not be used!
+2016-10-18 09:05:30 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:05:30 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:05:30 [root] INFO: valid ip: 115.221.121.12
+2016-10-18 09:05:30 [root] INFO: 115.221.121.12: can not be used!
+2016-10-18 09:05:30 [root] INFO: valid ip: 27.202.49.74
+2016-10-18 09:05:35 [root] INFO: 27.202.49.74: can not be used!
+2016-10-18 09:05:35 [root] INFO: valid ip: 121.31.103.122
+2016-10-18 09:05:40 [root] INFO: 121.31.103.122: can not be used!
+2016-10-18 09:05:40 [root] INFO: valid ip: 106.112.163.34
+2016-10-18 09:05:45 [root] INFO: 106.112.163.34: can not be used!
+2016-10-18 09:05:45 [root] INFO: valid ip: 113.24.46.184
+2016-10-18 09:05:50 [root] INFO: 113.24.46.184: can not be used!
+2016-10-18 09:05:50 [scrapy] INFO: Crawled 19 pages (at 2 pages/min), scraped 197 items (at 15 items/min)
+2016-10-18 09:05:50 [root] INFO: valid ip: 117.86.82.76
+2016-10-18 09:05:55 [root] INFO: 117.86.82.76: can not be used!
+2016-10-18 09:05:55 [root] INFO: valid ip: 183.141.106.46
+2016-10-18 09:06:00 [root] INFO: 183.141.106.46: can not be used!
+2016-10-18 09:06:00 [root] INFO: valid ip: 115.154.15.59
+2016-10-18 09:06:05 [root] INFO: 115.154.15.59: can not be used!
+2016-10-18 09:06:05 [root] INFO: valid ip: 61.160.254.23
+2016-10-18 09:06:10 [root] INFO: 61.160.254.23: can not be used!
+2016-10-18 09:06:10 [root] INFO: valid ip: 110.184.112.114
+2016-10-18 09:06:15 [root] INFO: 110.184.112.114: can not be used!
+2016-10-18 09:06:15 [root] INFO: valid ip: 183.141.122.203
+2016-10-18 09:06:20 [root] INFO: 183.141.122.203: can not be used!
+2016-10-18 09:06:20 [root] INFO: valid ip: 101.6.33.246
+2016-10-18 09:06:25 [root] INFO: 101.6.33.246: can not be used!
+2016-10-18 09:06:25 [root] INFO: valid ip: 183.141.149.146
+2016-10-18 09:06:30 [root] INFO: 183.141.149.146: can not be used!
+2016-10-18 09:06:30 [root] INFO: valid ip: 182.89.7.196
+2016-10-18 09:06:30 [root] INFO: 182.89.7.196: can not be used!
+2016-10-18 09:06:30 [root] INFO: valid ip: 125.85.79.116
+2016-10-18 09:06:35 [root] INFO: 125.85.79.116: can not be used!
+2016-10-18 09:06:35 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:06:36 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:06:36 [root] INFO: valid ip: 123.59.76.131
+2016-10-18 09:06:41 [root] INFO: 123.59.76.131: can not be used!
+2016-10-18 09:06:41 [root] INFO: valid ip: 1.83.103.221
+2016-10-18 09:06:41 [root] INFO: 1.83.103.221: can not be used!
+2016-10-18 09:06:41 [root] INFO: valid ip: 113.57.96.57
+2016-10-18 09:06:46 [root] INFO: 113.57.96.57: can not be used!
+2016-10-18 09:06:46 [root] INFO: valid ip: 118.113.76.185
+2016-10-18 09:06:51 [root] INFO: 118.113.76.185: can not be used!
+2016-10-18 09:06:51 [root] INFO: valid ip: 119.108.109.99
+2016-10-18 09:06:56 [root] INFO: 119.108.109.99: can not be used!
+2016-10-18 09:06:56 [scrapy] INFO: Crawled 21 pages (at 2 pages/min), scraped 213 items (at 16 items/min)
+2016-10-18 09:06:56 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 09:07:01 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 09:07:01 [root] INFO: valid ip: 114.215.192.135
+2016-10-18 09:07:06 [root] INFO: 114.215.192.135: can not be used!
+2016-10-18 09:07:06 [root] INFO: valid ip: 222.93.163.250
+2016-10-18 09:07:11 [root] INFO: 222.93.163.250: can not be used!
+2016-10-18 09:07:11 [root] INFO: valid ip: 115.212.56.93
+2016-10-18 09:07:16 [root] INFO: 115.212.56.93: can not be used!
+2016-10-18 09:07:16 [root] INFO: valid ip: 14.222.202.146
+2016-10-18 09:07:21 [root] INFO: 14.222.202.146: can not be used!
+2016-10-18 09:07:21 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:07:26 [root] INFO: 111.1.3.36: can not be used!
+2016-10-18 09:07:26 [root] INFO: valid ip: 39.167.121.81
+2016-10-18 09:07:31 [root] INFO: 39.167.121.81: can not be used!
+2016-10-18 09:07:31 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:07:37 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:07:37 [root] INFO: valid ip: 222.82.222.242
+2016-10-18 09:07:37 [root] INFO: 222.82.222.242: can not be used!
+2016-10-18 09:07:37 [root] INFO: valid ip: 182.88.228.24
+2016-10-18 09:07:42 [root] INFO: 182.88.228.24: can not be used!
+2016-10-18 09:07:42 [root] INFO: valid ip: 222.94.7.102
+2016-10-18 09:07:47 [root] INFO: 222.94.7.102: can not be used!
+2016-10-18 09:07:47 [root] INFO: valid ip: 59.55.210.237
+2016-10-18 09:07:47 [root] INFO: 59.55.210.237: can not be used!
+2016-10-18 09:07:47 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:07:50 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:07:50 [root] INFO: valid ip: 120.132.2.204
+2016-10-18 09:07:51 [root] INFO: 120.132.2.204: can not be used!
+2016-10-18 09:07:51 [root] INFO: valid ip: 222.79.232.249
+2016-10-18 09:07:51 [root] INFO: 222.79.232.249: can not be used!
+2016-10-18 09:07:51 [root] INFO: valid ip: 110.73.30.169
+2016-10-18 09:07:56 [root] INFO: 110.73.30.169: can not be used!
+2016-10-18 09:07:56 [root] INFO: valid ip: 112.124.7.114
+2016-10-18 09:07:56 [root] INFO: 112.124.7.114: can not be used!
+2016-10-18 09:07:56 [scrapy] INFO: Crawled 21 pages (at 0 pages/min), scraped 230 items (at 17 items/min)
+2016-10-18 09:07:56 [root] INFO: valid ip: 27.225.95.187
+2016-10-18 09:08:01 [root] INFO: 27.225.95.187: can not be used!
+2016-10-18 09:08:01 [root] INFO: valid ip: 110.73.55.236
+2016-10-18 09:08:06 [root] INFO: 110.73.55.236: can not be used!
+2016-10-18 09:08:06 [root] INFO: valid ip: 182.45.177.113
+2016-10-18 09:08:11 [root] INFO: 182.45.177.113: can not be used!
+2016-10-18 09:08:11 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 09:08:16 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 09:08:16 [root] INFO: valid ip: 120.132.90.233
+2016-10-18 09:08:17 [root] INFO: 120.132.90.233: can not be used!
+2016-10-18 09:08:17 [root] INFO: valid ip: 115.195.37.112
+2016-10-18 09:08:17 [root] INFO: 115.195.37.112: can not be used!
+2016-10-18 09:08:17 [root] INFO: valid ip: 183.128.149.246
+2016-10-18 09:08:22 [root] INFO: 183.128.149.246: can not be used!
+2016-10-18 09:08:22 [root] INFO: valid ip: 218.0.188.137
+2016-10-18 09:08:22 [root] INFO: 218.0.188.137: can not be used!
+2016-10-18 09:08:22 [root] INFO: valid ip: 180.116.168.145
+2016-10-18 09:08:27 [root] INFO: 180.116.168.145: can not be used!
+2016-10-18 09:08:27 [root] INFO: valid ip: 117.85.159.219
+2016-10-18 09:08:32 [root] INFO: 117.85.159.219: can not be used!
+2016-10-18 09:08:32 [root] INFO: valid ip: 175.10.188.161
+2016-10-18 09:08:37 [root] INFO: 175.10.188.161: can not be used!
+2016-10-18 09:08:37 [root] INFO: valid ip: 1.83.103.221
+2016-10-18 09:08:37 [root] INFO: 1.83.103.221: can not be used!
+2016-10-18 09:08:37 [root] INFO: valid ip: 219.150.189.212
+2016-10-18 09:08:42 [root] INFO: 219.150.189.212: can not be used!
+2016-10-18 09:08:42 [root] INFO: valid ip: 113.248.172.241
+2016-10-18 09:08:47 [root] INFO: 113.248.172.241: can not be used!
+2016-10-18 09:08:47 [root] INFO: valid ip: 116.226.28.78
+2016-10-18 09:08:47 [root] INFO: 116.226.28.78: can not be used!
+2016-10-18 09:08:47 [root] INFO: valid ip: 182.89.4.218
+2016-10-18 09:08:47 [root] INFO: 182.89.4.218: can not be used!
+2016-10-18 09:08:47 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:08:50 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:08:50 [root] INFO: valid ip: 61.171.52.104
+2016-10-18 09:08:55 [root] INFO: 61.171.52.104: can not be used!
+2016-10-18 09:08:55 [scrapy] INFO: Crawled 21 pages (at 0 pages/min), scraped 248 items (at 18 items/min)
+2016-10-18 09:08:55 [root] INFO: valid ip: 121.31.100.114
+2016-10-18 09:09:00 [root] INFO: 121.31.100.114: can not be used!
+2016-10-18 09:09:00 [root] INFO: valid ip: 39.176.120.170
+2016-10-18 09:09:05 [root] INFO: 39.176.120.170: can not be used!
+2016-10-18 09:09:05 [root] INFO: valid ip: 175.151.171.227
+2016-10-18 09:09:10 [root] INFO: 175.151.171.227: can not be used!
+2016-10-18 09:09:10 [root] INFO: valid ip: 110.72.26.115
+2016-10-18 09:09:15 [root] INFO: 110.72.26.115: can not be used!
+2016-10-18 09:09:15 [root] INFO: valid ip: 222.82.222.242
+2016-10-18 09:09:15 [root] INFO: 222.82.222.242: can not be used!
+2016-10-18 09:09:15 [root] INFO: valid ip: 106.120.78.129
+2016-10-18 09:09:20 [root] INFO: 106.120.78.129: can not be used!
+2016-10-18 09:09:20 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 09:09:20 [root] INFO: 218.14.121.237: had been existed!
+2016-10-18 09:09:20 [root] INFO: valid ip: 123.59.76.131
+2016-10-18 09:09:25 [root] INFO: 123.59.76.131: can not be used!
+2016-10-18 09:09:25 [root] INFO: valid ip: 180.115.114.168
+2016-10-18 09:09:30 [root] INFO: 180.115.114.168: can not be used!
+2016-10-18 09:09:30 [root] INFO: valid ip: 112.123.8.203
+2016-10-18 09:09:30 [root] INFO: 112.123.8.203: can not be used!
+2016-10-18 09:09:30 [root] INFO: valid ip: 183.13.228.46
+2016-10-18 09:09:30 [root] INFO: 183.13.228.46: can not be used!
+2016-10-18 09:09:30 [root] INFO: valid ip: 221.229.204.231
+2016-10-18 09:09:35 [root] INFO: 221.229.204.231: can not be used!
+2016-10-18 09:09:35 [root] INFO: valid ip: 218.74.226.234
+2016-10-18 09:09:40 [root] INFO: 218.74.226.234: can not be used!
+2016-10-18 09:09:40 [root] INFO: valid ip: 110.73.13.20
+2016-10-18 09:09:45 [root] INFO: 110.73.13.20: can not be used!
+2016-10-18 09:09:45 [root] INFO: valid ip: 183.141.149.209
+2016-10-18 09:09:50 [root] INFO: 183.141.149.209: can not be used!
+2016-10-18 09:09:50 [root] INFO: valid ip: 58.250.181.136
+2016-10-18 09:09:50 [root] INFO: 58.250.181.136: can not be used!
+2016-10-18 09:09:50 [root] INFO: valid ip: 219.128.29.239
+2016-10-18 09:09:55 [root] INFO: 219.128.29.239: can not be used!
+2016-10-18 09:09:55 [root] INFO: valid ip: 182.90.18.138
+2016-10-18 09:10:00 [root] INFO: 182.90.18.138: can not be used!
+2016-10-18 09:10:00 [scrapy] INFO: Crawled 22 pages (at 1 pages/min), scraped 266 items (at 18 items/min)
+2016-10-18 09:10:00 [root] INFO: valid ip: 221.199.159.21
+2016-10-18 09:10:05 [root] INFO: 221.199.159.21: can not be used!
+2016-10-18 09:10:05 [root] INFO: valid ip: 49.87.38.173
+2016-10-18 09:10:10 [root] INFO: 49.87.38.173: can not be used!
+2016-10-18 09:10:10 [root] INFO: valid ip: 114.215.149.170
+2016-10-18 09:10:18 [root] INFO: 114.215.149.170: can not be used!
+2016-10-18 09:10:18 [root] INFO: valid ip: 117.164.9.75
+2016-10-18 09:10:23 [root] INFO: 117.164.9.75: can not be used!
+2016-10-18 09:10:23 [root] INFO: valid ip: 180.108.184.125
+2016-10-18 09:10:28 [root] INFO: 180.108.184.125: can not be used!
+2016-10-18 09:10:28 [root] INFO: valid ip: 125.112.86.103
+2016-10-18 09:10:28 [root] INFO: 125.112.86.103: can not be used!
+2016-10-18 09:10:28 [root] INFO: valid ip: 125.76.177.53
+2016-10-18 09:10:33 [root] INFO: 125.76.177.53: can not be used!
+2016-10-18 09:10:33 [root] INFO: valid ip: 110.73.8.218
+2016-10-18 09:10:38 [root] INFO: 110.73.8.218: can not be used!
+2016-10-18 09:10:38 [root] INFO: valid ip: 222.138.67.50
+2016-10-18 09:10:43 [root] INFO: 222.138.67.50: can not be used!
+2016-10-18 09:10:43 [root] INFO: valid ip: 123.59.76.131
+2016-10-18 09:10:48 [root] INFO: 123.59.76.131: can not be used!
+2016-10-18 09:10:48 [root] INFO: valid ip: 115.28.2.233
+2016-10-18 09:10:53 [root] INFO: 115.28.2.233: can not be used!
+2016-10-18 09:10:53 [root] INFO: valid ip: 59.62.166.23
+2016-10-18 09:10:53 [root] INFO: 59.62.166.23: can not be used!
+2016-10-18 09:10:53 [root] INFO: valid ip: 183.157.173.54
+2016-10-18 09:10:58 [root] INFO: 183.157.173.54: can not be used!
+2016-10-18 09:10:58 [scrapy] INFO: Crawled 22 pages (at 0 pages/min), scraped 279 items (at 13 items/min)
+2016-10-18 09:10:58 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:11:00 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:11:00 [root] INFO: valid ip: 125.124.135.180
+2016-10-18 09:11:05 [root] INFO: 125.124.135.180: can not be used!
+2016-10-18 09:11:05 [root] INFO: valid ip: 119.249.54.91
+2016-10-18 09:11:10 [root] INFO: 119.249.54.91: can not be used!
+2016-10-18 09:11:10 [root] INFO: valid ip: 27.151.54.125
+2016-10-18 09:11:15 [root] INFO: 27.151.54.125: can not be used!
+2016-10-18 09:11:15 [root] INFO: valid ip: 110.72.38.0
+2016-10-18 09:11:15 [root] INFO: 110.72.38.0: can not be used!
+2016-10-18 09:11:15 [root] INFO: valid ip: 125.124.129.89
+2016-10-18 09:11:20 [root] INFO: 125.124.129.89: can not be used!
+2016-10-18 09:11:20 [root] INFO: valid ip: 114.113.126.32
+2016-10-18 09:11:20 [root] INFO: 114.113.126.32: can not be used!
+2016-10-18 09:11:20 [root] INFO: valid ip: 110.73.42.198
+2016-10-18 09:11:25 [root] INFO: 110.73.42.198: can not be used!
+2016-10-18 09:11:25 [root] INFO: valid ip: 115.28.2.233
+2016-10-18 09:11:30 [root] INFO: 115.28.2.233: can not be used!
+2016-10-18 09:11:30 [root] INFO: valid ip: 36.47.213.117
+2016-10-18 09:11:30 [root] INFO: 36.47.213.117: can not be used!
+2016-10-18 09:11:30 [root] INFO: valid ip: 111.4.127.94
+2016-10-18 09:11:35 [root] INFO: 111.4.127.94: can not be used!
+2016-10-18 09:11:35 [root] INFO: valid ip: 114.226.64.144
+2016-10-18 09:11:40 [root] INFO: 114.226.64.144: can not be used!
+2016-10-18 09:11:40 [root] INFO: valid ip: 123.127.8.248
+2016-10-18 09:11:48 [root] INFO: 123.127.8.248: can not be used!
+2016-10-18 09:11:48 [root] INFO: valid ip: 27.215.6.255
+2016-10-18 09:11:48 [root] INFO: 27.215.6.255: can not be used!
+2016-10-18 09:11:48 [scrapy] INFO: Crawled 22 pages (at 0 pages/min), scraped 293 items (at 14 items/min)
+2016-10-18 09:11:48 [root] INFO: valid ip: 114.228.6.175
+2016-10-18 09:11:48 [root] INFO: 114.228.6.175: can not be used!
+2016-10-18 09:11:48 [root] INFO: valid ip: 60.173.92.157
+2016-10-18 09:11:53 [root] INFO: 60.173.92.157: can not be used!
+2016-10-18 09:11:53 [root] INFO: valid ip: 122.6.98.194
+2016-10-18 09:11:58 [root] INFO: 122.6.98.194: can not be used!
+2016-10-18 09:11:58 [root] INFO: valid ip: 221.223.182.180
+2016-10-18 09:12:03 [root] INFO: 221.223.182.180: can not be used!
+2016-10-18 09:12:03 [root] INFO: valid ip: 125.109.199.219
+2016-10-18 09:12:08 [root] INFO: 125.109.199.219: can not be used!
+2016-10-18 09:12:08 [root] INFO: valid ip: 183.141.107.107
+2016-10-18 09:12:14 [root] INFO: 183.141.107.107: can not be used!
+2016-10-18 09:12:14 [root] INFO: valid ip: 61.160.254.23
+2016-10-18 09:12:20 [root] INFO: 61.160.254.23added to MongoDB database!
+2016-10-18 09:12:20 [root] INFO: valid ip: 223.241.200.72
+2016-10-18 09:12:25 [root] INFO: 223.241.200.72: can not be used!
+2016-10-18 09:12:25 [root] INFO: valid ip: 166.111.65.72
+2016-10-18 09:12:30 [root] INFO: 166.111.65.72: can not be used!
+2016-10-18 09:12:30 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 09:12:30 [root] INFO: 218.106.205.145: can not be used!
+2016-10-18 09:12:30 [root] INFO: valid ip: 120.39.193.254
+2016-10-18 09:12:35 [root] INFO: 120.39.193.254: can not be used!
+2016-10-18 09:12:35 [root] INFO: valid ip: 113.79.31.75
+2016-10-18 09:12:40 [root] INFO: 113.79.31.75: can not be used!
+2016-10-18 09:12:40 [root] INFO: valid ip: 221.229.204.231
+2016-10-18 09:12:45 [root] INFO: 221.229.204.231: can not be used!
+2016-10-18 09:12:45 [root] INFO: valid ip: 171.38.143.71
+2016-10-18 09:12:50 [root] INFO: 171.38.143.71: can not be used!
+2016-10-18 09:12:50 [scrapy] INFO: Crawled 24 pages (at 2 pages/min), scraped 307 items (at 14 items/min)
+2016-10-18 09:12:50 [root] INFO: valid ip: 114.249.202.255
+2016-10-18 09:12:55 [root] INFO: 114.249.202.255: can not be used!
+2016-10-18 09:12:55 [root] INFO: valid ip: 36.33.26.43
+2016-10-18 09:12:56 [root] INFO: 36.33.26.43: can not be used!
+2016-10-18 09:12:56 [root] INFO: valid ip: 183.173.193.32
+2016-10-18 09:13:01 [root] INFO: 183.173.193.32: can not be used!
+2016-10-18 09:13:01 [root] INFO: valid ip: 183.48.96.239
+2016-10-18 09:13:06 [root] INFO: 183.48.96.239: can not be used!
+2016-10-18 09:13:06 [root] INFO: valid ip: 112.195.101.82
+2016-10-18 09:13:11 [root] INFO: 112.195.101.82: can not be used!
+2016-10-18 09:13:11 [root] INFO: valid ip: 175.10.188.161
+2016-10-18 09:13:16 [root] INFO: 175.10.188.161: can not be used!
+2016-10-18 09:13:16 [root] INFO: valid ip: 110.73.41.140
+2016-10-18 09:13:21 [root] INFO: 110.73.41.140: can not be used!
+2016-10-18 09:13:21 [root] INFO: valid ip: 180.124.0.224
+2016-10-18 09:13:21 [root] INFO: 180.124.0.224: can not be used!
+2016-10-18 09:13:21 [root] INFO: valid ip: 123.233.208.87
+2016-10-18 09:13:22 [root] INFO: 123.233.208.87: can not be used!
+2016-10-18 09:13:22 [root] INFO: valid ip: 182.33.104.202
+2016-10-18 09:13:27 [root] INFO: 182.33.104.202: can not be used!
+2016-10-18 09:13:27 [root] INFO: valid ip: 58.61.49.136
+2016-10-18 09:13:27 [root] INFO: 58.61.49.136: can not be used!
+2016-10-18 09:13:27 [root] INFO: valid ip: 219.146.64.253
+2016-10-18 09:13:27 [root] INFO: 219.146.64.253: can not be used!
+2016-10-18 09:13:27 [root] INFO: valid ip: 106.90.37.64
+2016-10-18 09:13:32 [root] INFO: 106.90.37.64: can not be used!
+2016-10-18 09:13:32 [root] INFO: valid ip: 182.139.168.250
+2016-10-18 09:13:37 [root] INFO: 182.139.168.250: can not be used!
+2016-10-18 09:13:37 [root] INFO: valid ip: 124.17.26.89
+2016-10-18 09:13:43 [root] INFO: 124.17.26.89: can not be used!
+2016-10-18 09:13:43 [root] INFO: valid ip: 118.248.83.143
+2016-10-18 09:13:43 [root] INFO: 118.248.83.143: can not be used!
+2016-10-18 09:13:43 [root] INFO: valid ip: 123.96.6.199
+2016-10-18 09:13:43 [root] INFO: 123.96.6.199: can not be used!
+2016-10-18 09:13:43 [root] INFO: valid ip: 182.38.142.6
+2016-10-18 09:13:48 [root] INFO: 182.38.142.6: can not be used!
+2016-10-18 09:13:48 [scrapy] INFO: Crawled 26 pages (at 2 pages/min), scraped 325 items (at 18 items/min)
+2016-10-18 09:13:48 [root] INFO: valid ip: 106.88.124.170
+2016-10-18 09:13:53 [root] INFO: 106.88.124.170: can not be used!
+2016-10-18 09:13:53 [root] INFO: valid ip: 58.196.153.250
+2016-10-18 09:13:58 [root] INFO: 58.196.153.250: can not be used!
+2016-10-18 09:13:58 [root] INFO: valid ip: 1.27.201.72
+2016-10-18 09:14:03 [root] INFO: 1.27.201.72: can not be used!
+2016-10-18 09:14:03 [root] INFO: valid ip: 106.18.56.43
+2016-10-18 09:14:03 [root] INFO: 106.18.56.43: can not be used!
+2016-10-18 09:14:03 [root] INFO: valid ip: 117.170.41.216
+2016-10-18 09:14:08 [root] INFO: 117.170.41.216: can not be used!
+2016-10-18 09:14:08 [root] INFO: valid ip: 114.216.227.76
+2016-10-18 09:14:13 [root] INFO: 114.216.227.76: can not be used!
+2016-10-18 09:14:13 [root] INFO: valid ip: 125.113.123.212
+2016-10-18 09:14:18 [root] INFO: 125.113.123.212: can not be used!
+2016-10-18 09:14:18 [root] INFO: valid ip: 121.228.44.194
+2016-10-18 09:14:23 [root] INFO: 121.228.44.194: can not be used!
+2016-10-18 09:14:23 [root] INFO: valid ip: 39.160.161.107
+2016-10-18 09:14:28 [root] INFO: 39.160.161.107: can not be used!
+2016-10-18 09:14:28 [root] INFO: valid ip: 115.159.92.253
+2016-10-18 09:14:33 [root] INFO: 115.159.92.253: can not be used!
+2016-10-18 09:14:33 [root] INFO: valid ip: 222.212.253.142
+2016-10-18 09:14:38 [root] INFO: 222.212.253.142: can not be used!
+2016-10-18 09:14:38 [root] INFO: valid ip: 115.227.149.124
+2016-10-18 09:14:43 [root] INFO: 115.227.149.124: can not be used!
+2016-10-18 09:14:43 [root] INFO: valid ip: 219.150.189.212
+2016-10-18 09:14:48 [root] INFO: 219.150.189.212: can not be used!
+2016-10-18 09:14:48 [root] INFO: valid ip: 125.113.123.212
+2016-10-18 09:14:53 [root] INFO: 125.113.123.212: can not be used!
+2016-10-18 09:14:53 [root] INFO: valid ip: 113.251.166.148
+2016-10-18 09:14:58 [root] INFO: 113.251.166.148: can not be used!
+2016-10-18 09:14:58 [scrapy] INFO: Crawled 26 pages (at 0 pages/min), scraped 340 items (at 15 items/min)
+2016-10-18 09:14:58 [root] INFO: valid ip: 183.33.218.84
+2016-10-18 09:15:03 [root] INFO: 183.33.218.84: can not be used!
+2016-10-18 09:15:03 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:15:07 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:15:07 [root] INFO: valid ip: 49.67.54.229
+2016-10-18 09:15:07 [root] INFO: 49.67.54.229: can not be used!
+2016-10-18 09:15:07 [root] INFO: valid ip: 183.165.79.104
+2016-10-18 09:15:07 [root] INFO: 183.165.79.104: can not be used!
+2016-10-18 09:15:07 [root] INFO: valid ip: 39.169.69.136
+2016-10-18 09:15:12 [root] INFO: 39.169.69.136: can not be used!
+2016-10-18 09:15:12 [root] INFO: valid ip: 183.163.149.125
+2016-10-18 09:15:17 [root] INFO: 183.163.149.125: can not be used!
+2016-10-18 09:15:17 [root] INFO: valid ip: 139.217.12.225
+2016-10-18 09:15:18 [root] INFO: 139.217.12.225: can not be used!
+2016-10-18 09:15:18 [root] INFO: valid ip: 110.155.205.221
+2016-10-18 09:15:23 [root] INFO: 110.155.205.221: can not be used!
+2016-10-18 09:15:23 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 09:15:28 [root] INFO: 218.14.121.237: can not be used!
+2016-10-18 09:15:28 [root] INFO: valid ip: 106.40.95.210
+2016-10-18 09:15:28 [root] INFO: 106.40.95.210: can not be used!
+2016-10-18 09:15:28 [root] INFO: valid ip: 106.110.42.43
+2016-10-18 09:15:33 [root] INFO: 106.110.42.43: can not be used!
+2016-10-18 09:15:33 [root] INFO: valid ip: 39.159.36.87
+2016-10-18 09:15:38 [root] INFO: 39.159.36.87: can not be used!
+2016-10-18 09:15:38 [root] INFO: valid ip: 111.2.117.12
+2016-10-18 09:15:43 [root] INFO: 111.2.117.12: can not be used!
+2016-10-18 09:15:43 [root] INFO: valid ip: 119.29.103.13
+2016-10-18 09:15:43 [root] INFO: 119.29.103.13: can not be used!
+2016-10-18 09:15:43 [scrapy] INFO: Crawled 29 pages (at 3 pages/min), scraped 354 items (at 14 items/min)
+2016-10-18 09:15:43 [root] INFO: valid ip: 180.121.249.46
+2016-10-18 09:15:43 [root] INFO: 180.121.249.46: can not be used!
+2016-10-18 09:15:43 [root] INFO: valid ip: 61.143.158.238
+2016-10-18 09:15:48 [root] INFO: 61.143.158.238: can not be used!
+2016-10-18 09:15:48 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:15:49 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:15:49 [root] INFO: valid ip: 58.60.60.153
+2016-10-18 09:15:54 [root] INFO: 58.60.60.153: can not be used!
+2016-10-18 09:15:54 [root] INFO: valid ip: 1.27.202.250
+2016-10-18 09:15:59 [root] INFO: 1.27.202.250: can not be used!
+2016-10-18 09:15:59 [root] INFO: valid ip: 115.222.220.180
+2016-10-18 09:16:04 [root] INFO: 115.222.220.180: can not be used!
+2016-10-18 09:16:04 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 09:16:04 [root] INFO: 218.106.205.145: can not be used!
+2016-10-18 09:16:04 [root] INFO: valid ip: 114.112.157.173
+2016-10-18 09:16:09 [root] INFO: 114.112.157.173: can not be used!
+2016-10-18 09:16:09 [root] INFO: valid ip: 118.249.108.217
+2016-10-18 09:16:14 [root] INFO: 118.249.108.217: can not be used!
+2016-10-18 09:16:14 [root] INFO: valid ip: 223.95.105.218
+2016-10-18 09:16:19 [root] INFO: 223.95.105.218: can not be used!
+2016-10-18 09:16:19 [root] INFO: valid ip: 222.84.13.127
+2016-10-18 09:16:24 [root] INFO: 222.84.13.127: can not be used!
+2016-10-18 09:16:24 [root] INFO: valid ip: 180.108.56.218
+2016-10-18 09:16:29 [root] INFO: 180.108.56.218: can not be used!
+2016-10-18 09:16:29 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:16:29 [root] INFO: 122.96.59.106: can not be used!
+2016-10-18 09:16:29 [root] INFO: valid ip: 139.217.8.125
+2016-10-18 09:16:34 [root] INFO: 139.217.8.125: can not be used!
+2016-10-18 09:16:34 [root] INFO: valid ip: 123.168.211.215
+2016-10-18 09:16:39 [root] INFO: 123.168.211.215: can not be used!
+2016-10-18 09:16:39 [root] INFO: valid ip: 115.159.56.220
+2016-10-18 09:16:40 [root] INFO: 115.159.56.220: can not be used!
+2016-10-18 09:16:40 [root] INFO: valid ip: 59.66.107.243
+2016-10-18 09:16:45 [root] INFO: 59.66.107.243: can not be used!
+2016-10-18 09:16:45 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:16:45 [root] INFO: 122.96.59.106: can not be used!
+2016-10-18 09:16:45 [root] INFO: valid ip: 124.88.67.23
+2016-10-18 09:16:46 [root] INFO: 124.88.67.23added to MongoDB database!
+2016-10-18 09:16:46 [scrapy] INFO: Crawled 32 pages (at 3 pages/min), scraped 373 items (at 19 items/min)
+2016-10-18 09:16:46 [root] INFO: valid ip: 49.83.9.221
+2016-10-18 09:16:51 [root] INFO: 49.83.9.221: can not be used!
+2016-10-18 09:16:51 [root] INFO: valid ip: 219.141.225.108
+2016-10-18 09:16:51 [root] INFO: 219.141.225.108: can not be used!
+2016-10-18 09:16:51 [root] INFO: valid ip: 110.185.246.149
+2016-10-18 09:16:51 [root] INFO: 110.185.246.149: can not be used!
+2016-10-18 09:16:51 [root] INFO: valid ip: 223.99.254.99
+2016-10-18 09:16:51 [root] INFO: 223.99.254.99: had been existed!
+2016-10-18 09:16:51 [root] INFO: valid ip: 101.69.177.93
+2016-10-18 09:16:56 [root] INFO: 101.69.177.93: can not be used!
+2016-10-18 09:16:56 [root] INFO: valid ip: 115.151.229.153
+2016-10-18 09:17:01 [root] INFO: 115.151.229.153: can not be used!
+2016-10-18 09:17:01 [root] INFO: valid ip: 218.86.128.26
+2016-10-18 09:17:06 [root] INFO: 218.86.128.26: can not be used!
+2016-10-18 09:17:06 [root] INFO: valid ip: 123.244.245.22
+2016-10-18 09:17:11 [root] INFO: 123.244.245.22: can not be used!
+2016-10-18 09:17:11 [root] INFO: valid ip: 171.212.136.87
+2016-10-18 09:17:11 [root] INFO: 171.212.136.87: can not be used!
+2016-10-18 09:17:11 [root] INFO: valid ip: 183.141.145.82
+2016-10-18 09:17:11 [root] INFO: 183.141.145.82: can not be used!
+2016-10-18 09:17:11 [root] INFO: valid ip: 171.37.134.140
+2016-10-18 09:17:16 [root] INFO: 171.37.134.140: can not be used!
+2016-10-18 09:17:16 [root] INFO: valid ip: 211.138.151.121
+2016-10-18 09:17:21 [root] INFO: 211.138.151.121: can not be used!
+2016-10-18 09:17:21 [root] INFO: valid ip: 120.132.2.201
+2016-10-18 09:17:21 [root] INFO: 120.132.2.201: can not be used!
+2016-10-18 09:17:21 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:17:27 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:17:27 [root] INFO: valid ip: 180.110.157.98
+2016-10-18 09:17:32 [root] INFO: 180.110.157.98: can not be used!
+2016-10-18 09:17:32 [root] INFO: valid ip: 121.226.6.92
+2016-10-18 09:17:32 [root] INFO: 121.226.6.92: can not be used!
+2016-10-18 09:17:32 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:17:32 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:17:32 [root] INFO: valid ip: 121.18.231.88
+2016-10-18 09:17:37 [root] INFO: 121.18.231.88: can not be used!
+2016-10-18 09:17:37 [root] INFO: valid ip: 183.145.200.145
+2016-10-18 09:17:37 [root] INFO: 183.145.200.145: can not be used!
+2016-10-18 09:17:37 [root] INFO: valid ip: 219.146.64.253
+2016-10-18 09:17:38 [root] INFO: 219.146.64.253: can not be used!
+2016-10-18 09:17:38 [root] INFO: valid ip: 58.37.45.102
+2016-10-18 09:17:43 [root] INFO: 58.37.45.102: can not be used!
+2016-10-18 09:17:43 [root] INFO: valid ip: 219.216.122.250
+2016-10-18 09:17:48 [root] INFO: 219.216.122.250: can not be used!
+2016-10-18 09:17:48 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:17:54 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:17:54 [scrapy] INFO: Crawled 33 pages (at 1 pages/min), scraped 396 items (at 23 items/min)
+2016-10-18 09:17:54 [root] INFO: valid ip: 36.250.159.213
+2016-10-18 09:17:54 [root] INFO: 36.250.159.213added to MongoDB database!
+2016-10-18 09:17:55 [root] INFO: valid ip: 122.228.179.178
+2016-10-18 09:18:00 [root] INFO: 122.228.179.178: can not be used!
+2016-10-18 09:18:00 [root] INFO: valid ip: 218.203.129.39
+2016-10-18 09:18:05 [root] INFO: 218.203.129.39: can not be used!
+2016-10-18 09:18:05 [root] INFO: valid ip: 106.86.177.86
+2016-10-18 09:18:10 [root] INFO: 106.86.177.86: can not be used!
+2016-10-18 09:18:10 [root] INFO: valid ip: 124.88.67.23
+2016-10-18 09:18:10 [root] INFO: 124.88.67.23: had been existed!
+2016-10-18 09:18:10 [root] INFO: valid ip: 58.250.179.252
+2016-10-18 09:18:10 [root] INFO: 58.250.179.252: can not be used!
+2016-10-18 09:18:10 [root] INFO: valid ip: 112.95.18.13
+2016-10-18 09:18:15 [root] INFO: 112.95.18.13: can not be used!
+2016-10-18 09:18:15 [root] INFO: valid ip: 171.38.164.125
+2016-10-18 09:18:20 [root] INFO: 171.38.164.125: can not be used!
+2016-10-18 09:18:20 [root] INFO: valid ip: 60.160.222.171
+2016-10-18 09:18:25 [root] INFO: 60.160.222.171: can not be used!
+2016-10-18 09:18:25 [root] INFO: valid ip: 140.206.125.178
+2016-10-18 09:18:30 [root] INFO: 140.206.125.178: can not be used!
+2016-10-18 09:18:30 [root] INFO: valid ip: 115.58.117.102
+2016-10-18 09:18:35 [root] INFO: 115.58.117.102: can not be used!
+2016-10-18 09:18:35 [root] INFO: valid ip: 39.160.152.167
+2016-10-18 09:18:40 [root] INFO: 39.160.152.167: can not be used!
+2016-10-18 09:18:40 [root] INFO: valid ip: 112.95.17.153
+2016-10-18 09:18:40 [root] INFO: 112.95.17.153: can not be used!
+2016-10-18 09:18:40 [root] INFO: valid ip: 116.9.71.231
+2016-10-18 09:18:45 [root] INFO: 116.9.71.231: can not be used!
+2016-10-18 09:18:45 [root] INFO: valid ip: 221.220.240.138
+2016-10-18 09:18:50 [root] INFO: 221.220.240.138: can not be used!
+2016-10-18 09:18:50 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:18:50 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:18:50 [root] INFO: valid ip: 123.150.234.150
+2016-10-18 09:18:55 [root] INFO: 123.150.234.150: can not be used!
+2016-10-18 09:18:55 [root] INFO: valid ip: 120.26.13.161
+2016-10-18 09:18:55 [root] INFO: 120.26.13.161: can not be used!
+2016-10-18 09:18:55 [root] INFO: valid ip: 110.52.219.252
+2016-10-18 09:19:00 [root] INFO: 110.52.219.252: can not be used!
+2016-10-18 09:19:00 [root] INFO: valid ip: 182.36.201.37
+2016-10-18 09:19:05 [root] INFO: 182.36.201.37: can not be used!
+2016-10-18 09:19:05 [root] INFO: valid ip: 39.180.66.67
+2016-10-18 09:19:10 [root] INFO: 39.180.66.67: can not be used!
+2016-10-18 09:19:10 [scrapy] INFO: Crawled 35 pages (at 2 pages/min), scraped 417 items (at 21 items/min)
+2016-10-18 09:19:10 [root] INFO: valid ip: 183.141.127.152
+2016-10-18 09:19:15 [root] INFO: 183.141.127.152: can not be used!
+2016-10-18 09:19:15 [root] INFO: valid ip: 110.72.36.45
+2016-10-18 09:19:20 [root] INFO: 110.72.36.45: can not be used!
+2016-10-18 09:19:20 [root] INFO: valid ip: 115.217.255.21
+2016-10-18 09:19:25 [root] INFO: 115.217.255.21: can not be used!
+2016-10-18 09:19:25 [root] INFO: valid ip: 106.110.218.8
+2016-10-18 09:19:25 [root] INFO: 106.110.218.8: can not be used!
+2016-10-18 09:19:25 [root] INFO: valid ip: 222.133.86.57
+2016-10-18 09:19:25 [root] INFO: 222.133.86.57: can not be used!
+2016-10-18 09:19:25 [root] INFO: valid ip: 122.96.59.104
+2016-10-18 09:19:30 [root] INFO: 122.96.59.104: can not be used!
+2016-10-18 09:19:30 [root] INFO: valid ip: 121.250.219.40
+2016-10-18 09:19:30 [root] INFO: 121.250.219.40: can not be used!
+2016-10-18 09:19:30 [root] INFO: valid ip: 114.254.45.107
+2016-10-18 09:19:35 [root] INFO: 114.254.45.107: can not be used!
+2016-10-18 09:19:35 [root] INFO: valid ip: 116.227.33.87
+2016-10-18 09:19:40 [root] INFO: 116.227.33.87: can not be used!
+2016-10-18 09:19:40 [root] INFO: valid ip: 42.51.13.103
+2016-10-18 09:19:40 [root] INFO: 42.51.13.103: can not be used!
+2016-10-18 09:19:40 [root] INFO: valid ip: 58.196.135.52
+2016-10-18 09:19:46 [root] INFO: 58.196.135.52: can not be used!
+2016-10-18 09:19:46 [root] INFO: valid ip: 183.141.149.159
+2016-10-18 09:19:51 [root] INFO: 183.141.149.159: can not be used!
+2016-10-18 09:19:51 [root] INFO: valid ip: 14.108.134.147
+2016-10-18 09:19:56 [root] INFO: 14.108.134.147: can not be used!
+2016-10-18 09:19:56 [root] INFO: valid ip: 1.27.201.72
+2016-10-18 09:20:01 [root] INFO: 1.27.201.72: can not be used!
+2016-10-18 09:20:01 [root] INFO: valid ip: 180.108.201.15
+2016-10-18 09:20:06 [root] INFO: 180.108.201.15: can not be used!
+2016-10-18 09:20:06 [root] INFO: valid ip: 121.226.153.236
+2016-10-18 09:20:11 [root] INFO: 121.226.153.236: can not be used!
+2016-10-18 09:20:11 [root] INFO: valid ip: 59.66.137.120
+2016-10-18 09:20:16 [root] INFO: 59.66.137.120: can not be used!
+2016-10-18 09:20:16 [scrapy] INFO: Crawled 35 pages (at 0 pages/min), scraped 434 items (at 17 items/min)
+2016-10-18 09:20:16 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 09:20:16 [root] INFO: 218.14.121.237: can not be used!
+2016-10-18 09:20:16 [root] INFO: valid ip: 39.158.249.110
+2016-10-18 09:20:21 [root] INFO: 39.158.249.110: can not be used!
+2016-10-18 09:20:21 [root] INFO: valid ip: 116.226.24.155
+2016-10-18 09:20:26 [root] INFO: 116.226.24.155: can not be used!
+2016-10-18 09:20:26 [root] INFO: valid ip: 106.81.190.116
+2016-10-18 09:20:31 [root] INFO: 106.81.190.116: can not be used!
+2016-10-18 09:20:31 [root] INFO: valid ip: 175.10.188.161
+2016-10-18 09:20:36 [root] INFO: 175.10.188.161: can not be used!
+2016-10-18 09:20:36 [root] INFO: valid ip: 59.66.124.243
+2016-10-18 09:20:41 [root] INFO: 59.66.124.243: can not be used!
+2016-10-18 09:20:41 [root] INFO: valid ip: 211.138.151.121
+2016-10-18 09:20:46 [root] INFO: 211.138.151.121: can not be used!
+2016-10-18 09:20:46 [root] INFO: valid ip: 121.207.93.181
+2016-10-18 09:20:46 [root] INFO: 121.207.93.181: can not be used!
+2016-10-18 09:20:46 [root] INFO: valid ip: 117.95.145.217
+2016-10-18 09:20:51 [root] INFO: 117.95.145.217: can not be used!
+2016-10-18 09:20:51 [root] INFO: valid ip: 182.37.251.35
+2016-10-18 09:20:56 [root] INFO: 182.37.251.35: can not be used!
+2016-10-18 09:20:56 [root] INFO: valid ip: 183.141.109.189
+2016-10-18 09:21:01 [root] INFO: 183.141.109.189: can not be used!
+2016-10-18 09:21:01 [root] INFO: valid ip: 113.14.172.98
+2016-10-18 09:21:06 [root] INFO: 113.14.172.98: can not be used!
+2016-10-18 09:21:06 [root] INFO: valid ip: 111.175.52.56
+2016-10-18 09:21:11 [root] INFO: 111.175.52.56: can not be used!
+2016-10-18 09:21:11 [scrapy] INFO: Crawled 36 pages (at 1 pages/min), scraped 447 items (at 13 items/min)
+2016-10-18 09:21:11 [root] INFO: valid ip: 219.156.244.152
+2016-10-18 09:21:16 [root] INFO: 219.156.244.152: can not be used!
+2016-10-18 09:21:16 [root] INFO: valid ip: 59.66.122.196
+2016-10-18 09:21:21 [root] INFO: 59.66.122.196: can not be used!
+2016-10-18 09:21:21 [root] INFO: valid ip: 222.94.7.61
+2016-10-18 09:21:26 [root] INFO: 222.94.7.61: can not be used!
+2016-10-18 09:21:26 [root] INFO: valid ip: 210.41.99.82
+2016-10-18 09:21:26 [root] INFO: 210.41.99.82: can not be used!
+2016-10-18 09:21:26 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:21:31 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:21:31 [root] INFO: valid ip: 1.83.37.47
+2016-10-18 09:21:36 [root] INFO: 1.83.37.47: can not be used!
+2016-10-18 09:21:36 [root] INFO: valid ip: 183.48.97.37
+2016-10-18 09:21:41 [root] INFO: 183.48.97.37: can not be used!
+2016-10-18 09:21:41 [root] INFO: valid ip: 112.95.43.19
+2016-10-18 09:21:41 [root] INFO: 112.95.43.19: can not be used!
+2016-10-18 09:21:41 [root] INFO: valid ip: 117.80.147.160
+2016-10-18 09:21:46 [root] INFO: 117.80.147.160: can not be used!
+2016-10-18 09:21:46 [root] INFO: valid ip: 144.255.237.88
+2016-10-18 09:21:46 [root] INFO: 144.255.237.88: can not be used!
+2016-10-18 09:21:46 [root] INFO: valid ip: 182.86.133.186
+2016-10-18 09:21:46 [root] INFO: 182.86.133.186: can not be used!
+2016-10-18 09:21:46 [root] INFO: valid ip: 121.226.172.12
+2016-10-18 09:21:51 [root] INFO: 121.226.172.12: can not be used!
+2016-10-18 09:21:51 [scrapy] ERROR: Error downloading <GET http://www.kuaidaili.com/free/inha/12/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2016-10-18 09:21:51 [root] INFO: valid ip: 115.203.81.236
+2016-10-18 09:21:56 [root] INFO: 115.203.81.236: can not be used!
+2016-10-18 09:21:56 [root] INFO: valid ip: 112.111.96.65
+2016-10-18 09:22:01 [root] INFO: 112.111.96.65: can not be used!
+2016-10-18 09:22:01 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 09:22:06 [root] INFO: 218.106.205.145: can not be used!
+2016-10-18 09:22:06 [scrapy] INFO: Crawled 36 pages (at 0 pages/min), scraped 462 items (at 15 items/min)
+2016-10-18 09:22:06 [root] INFO: valid ip: 124.42.7.103
+2016-10-18 09:22:11 [root] INFO: 124.42.7.103: can not be used!
+2016-10-18 09:22:11 [root] INFO: valid ip: 182.86.135.8
+2016-10-18 09:22:11 [root] INFO: 182.86.135.8: can not be used!
+2016-10-18 09:22:11 [root] INFO: valid ip: 175.10.204.15
+2016-10-18 09:22:16 [root] INFO: 175.10.204.15: can not be used!
+2016-10-18 09:22:16 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:22:16 [root] INFO: 111.1.3.36: had been existed!
+2016-10-18 09:22:16 [root] INFO: valid ip: 183.16.229.195
+2016-10-18 09:22:21 [root] INFO: 183.16.229.195: can not be used!
+2016-10-18 09:22:21 [root] INFO: valid ip: 175.10.204.15
+2016-10-18 09:22:26 [root] INFO: 175.10.204.15: can not be used!
+2016-10-18 09:22:26 [root] INFO: valid ip: 180.116.22.20
+2016-10-18 09:22:31 [root] INFO: 180.116.22.20: can not be used!
+2016-10-18 09:22:31 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:22:32 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:22:32 [root] INFO: valid ip: 119.29.103.13
+2016-10-18 09:22:34 [root] INFO: 119.29.103.13added to MongoDB database!
+2016-10-18 09:22:34 [root] INFO: valid ip: 117.66.16.135
+2016-10-18 09:22:39 [root] INFO: 117.66.16.135: can not be used!
+2016-10-18 09:22:39 [root] INFO: valid ip: 183.245.147.15
+2016-10-18 09:22:44 [root] INFO: 183.245.147.15: can not be used!
+2016-10-18 09:22:44 [root] INFO: valid ip: 114.231.78.205
+2016-10-18 09:22:44 [root] INFO: 114.231.78.205: can not be used!
+2016-10-18 09:22:44 [root] INFO: valid ip: 121.56.189.189
+2016-10-18 09:22:44 [root] INFO: 121.56.189.189: can not be used!
+2016-10-18 09:22:44 [root] INFO: valid ip: 125.92.34.162
+2016-10-18 09:22:49 [root] INFO: 125.92.34.162: can not be used!
+2016-10-18 09:22:49 [root] INFO: valid ip: 114.238.103.2
+2016-10-18 09:22:54 [root] INFO: 114.238.103.2: can not be used!
+2016-10-18 09:22:54 [root] INFO: valid ip: 118.72.126.203
+2016-10-18 09:22:59 [root] INFO: 118.72.126.203: can not be used!
+2016-10-18 09:22:59 [scrapy] INFO: Crawled 37 pages (at 1 pages/min), scraped 478 items (at 16 items/min)
+2016-10-18 09:22:59 [root] INFO: valid ip: 113.251.222.11
+2016-10-18 09:22:59 [root] INFO: 113.251.222.11: can not be used!
+2016-10-18 09:22:59 [root] INFO: valid ip: 59.66.134.46
+2016-10-18 09:23:04 [root] INFO: 59.66.134.46: can not be used!
+2016-10-18 09:23:04 [root] INFO: valid ip: 182.38.142.6
+2016-10-18 09:23:09 [root] INFO: 182.38.142.6: can not be used!
+2016-10-18 09:23:09 [root] INFO: valid ip: 27.151.54.125
+2016-10-18 09:23:14 [root] INFO: 27.151.54.125: can not be used!
+2016-10-18 09:23:14 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:23:14 [root] INFO: 122.96.59.106added to MongoDB database!
+2016-10-18 09:23:15 [root] INFO: valid ip: 183.245.147.15
+2016-10-18 09:23:20 [root] INFO: 183.245.147.15: can not be used!
+2016-10-18 09:23:20 [root] INFO: valid ip: 219.141.25.57
+2016-10-18 09:23:25 [root] INFO: 219.141.25.57: can not be used!
+2016-10-18 09:23:25 [root] INFO: valid ip: 121.239.104.161
+2016-10-18 09:23:30 [root] INFO: 121.239.104.161: can not be used!
+2016-10-18 09:23:30 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:23:30 [root] INFO: 122.96.59.106: had been existed!
+2016-10-18 09:23:30 [root] INFO: valid ip: 182.88.91.127
+2016-10-18 09:23:35 [root] INFO: 182.88.91.127: can not be used!
+2016-10-18 09:23:35 [root] INFO: valid ip: 121.238.157.26
+2016-10-18 09:23:40 [root] INFO: 121.238.157.26: can not be used!
+2016-10-18 09:23:40 [root] INFO: valid ip: 121.31.49.30
+2016-10-18 09:23:45 [root] INFO: 121.31.49.30: can not be used!
+2016-10-18 09:23:45 [root] INFO: valid ip: 182.99.247.63
+2016-10-18 09:23:50 [root] INFO: 182.99.247.63: can not be used!
+2016-10-18 09:23:50 [root] INFO: valid ip: 121.31.93.36
+2016-10-18 09:23:55 [root] INFO: 121.31.93.36: can not be used!
+2016-10-18 09:23:55 [root] INFO: valid ip: 101.94.207.234
+2016-10-18 09:24:00 [root] INFO: 101.94.207.234: can not be used!
+2016-10-18 09:24:00 [root] INFO: valid ip: 223.243.147.236
+2016-10-18 09:24:00 [root] INFO: 223.243.147.236: can not be used!
+2016-10-18 09:24:00 [root] INFO: valid ip: 120.192.75.245
+2016-10-18 09:24:05 [root] INFO: 120.192.75.245: can not be used!
+2016-10-18 09:24:05 [root] INFO: valid ip: 220.184.32.245
+2016-10-18 09:24:10 [root] INFO: 220.184.32.245: can not be used!
+2016-10-18 09:24:10 [scrapy] INFO: Crawled 37 pages (at 0 pages/min), scraped 496 items (at 18 items/min)
+2016-10-18 09:24:10 [root] INFO: valid ip: 117.81.228.111
+2016-10-18 09:24:15 [root] INFO: 117.81.228.111: can not be used!
+2016-10-18 09:24:15 [root] INFO: valid ip: 124.17.26.91
+2016-10-18 09:24:20 [root] INFO: 124.17.26.91: can not be used!
+2016-10-18 09:24:20 [root] INFO: valid ip: 119.29.82.151
+2016-10-18 09:24:20 [root] INFO: 119.29.82.151: can not be used!
+2016-10-18 09:24:20 [root] INFO: valid ip: 110.73.10.111
+2016-10-18 09:24:25 [root] INFO: 110.73.10.111: can not be used!
+2016-10-18 09:24:25 [root] INFO: valid ip: 221.229.166.55
+2016-10-18 09:24:30 [root] INFO: 221.229.166.55: can not be used!
+2016-10-18 09:24:30 [root] INFO: valid ip: 166.111.66.165
+2016-10-18 09:24:35 [root] INFO: 166.111.66.165: can not be used!
+2016-10-18 09:24:35 [root] INFO: valid ip: 110.72.254.187
+2016-10-18 09:24:35 [root] INFO: 110.72.254.187: can not be used!
+2016-10-18 09:24:35 [root] INFO: valid ip: 121.226.164.116
+2016-10-18 09:24:40 [root] INFO: 121.226.164.116: can not be used!
+2016-10-18 09:24:40 [root] INFO: valid ip: 49.68.103.177
+2016-10-18 09:24:45 [root] INFO: 49.68.103.177: can not be used!
+2016-10-18 09:24:45 [root] INFO: valid ip: 106.86.177.86
+2016-10-18 09:24:50 [root] INFO: 106.86.177.86: can not be used!
+2016-10-18 09:24:50 [root] INFO: valid ip: 123.96.4.175
+2016-10-18 09:24:50 [root] INFO: 123.96.4.175: can not be used!
+2016-10-18 09:24:50 [root] INFO: valid ip: 123.96.168.135
+2016-10-18 09:24:50 [root] INFO: 123.96.168.135: can not be used!
+2016-10-18 09:24:50 [root] INFO: valid ip: 116.9.156.105
+2016-10-18 09:24:58 [root] INFO: 116.9.156.105added to MongoDB database!
+2016-10-18 09:24:58 [scrapy] INFO: Crawled 37 pages (at 0 pages/min), scraped 509 items (at 13 items/min)
+2016-10-18 09:24:58 [root] INFO: valid ip: 119.125.253.135
+2016-10-18 09:25:03 [root] INFO: 119.125.253.135: can not be used!
+2016-10-18 09:25:03 [root] INFO: valid ip: 183.152.174.97
+2016-10-18 09:25:08 [root] INFO: 183.152.174.97: can not be used!
+2016-10-18 09:25:08 [root] INFO: valid ip: 115.220.1.181
+2016-10-18 09:25:13 [root] INFO: 115.220.1.181: can not be used!
+2016-10-18 09:25:13 [root] INFO: valid ip: 219.216.122.250
+2016-10-18 09:25:18 [root] INFO: 219.216.122.250: can not be used!
+2016-10-18 09:25:18 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 09:25:18 [root] INFO: 218.14.121.237: can not be used!
+2016-10-18 09:25:18 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:25:23 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:25:23 [root] INFO: valid ip: 114.216.130.132
+2016-10-18 09:25:28 [root] INFO: 114.216.130.132: can not be used!
+2016-10-18 09:25:28 [root] INFO: valid ip: 182.88.91.49
+2016-10-18 09:25:33 [root] INFO: 182.88.91.49: can not be used!
+2016-10-18 09:25:33 [root] INFO: valid ip: 223.82.80.162
+2016-10-18 09:25:38 [root] INFO: 223.82.80.162: can not be used!
+2016-10-18 09:25:38 [root] INFO: valid ip: 58.251.209.129
+2016-10-18 09:25:43 [root] INFO: 58.251.209.129: can not be used!
+2016-10-18 09:25:43 [root] INFO: valid ip: 117.30.224.150
+2016-10-18 09:25:48 [root] INFO: 117.30.224.150: can not be used!
+2016-10-18 09:25:48 [root] INFO: valid ip: 183.141.158.183
+2016-10-18 09:25:53 [root] INFO: 183.141.158.183: can not be used!
+2016-10-18 09:25:53 [root] INFO: valid ip: 117.57.43.148
+2016-10-18 09:25:58 [root] INFO: 117.57.43.148: can not be used!
+2016-10-18 09:25:58 [scrapy] INFO: Crawled 39 pages (at 2 pages/min), scraped 522 items (at 13 items/min)
+2016-10-18 09:25:58 [root] INFO: valid ip: 183.144.205.114
+2016-10-18 09:25:58 [root] INFO: 183.144.205.114: can not be used!
+2016-10-18 09:25:58 [root] INFO: valid ip: 117.91.235.23
+2016-10-18 09:26:03 [root] INFO: 117.91.235.23: can not be used!
+2016-10-18 09:26:03 [root] INFO: valid ip: 115.173.131.230
+2016-10-18 09:26:08 [root] INFO: 115.173.131.230: can not be used!
+2016-10-18 09:26:08 [root] INFO: valid ip: 222.247.84.139
+2016-10-18 09:26:13 [root] INFO: 222.247.84.139: can not be used!
+2016-10-18 09:26:13 [root] INFO: valid ip: 182.34.182.177
+2016-10-18 09:26:18 [root] INFO: 182.34.182.177: can not be used!
+2016-10-18 09:26:18 [root] INFO: valid ip: 121.207.93.181
+2016-10-18 09:26:18 [root] INFO: 121.207.93.181: can not be used!
+2016-10-18 09:26:18 [root] INFO: valid ip: 112.95.17.212
+2016-10-18 09:26:18 [root] INFO: 112.95.17.212: can not be used!
+2016-10-18 09:26:18 [root] INFO: valid ip: 121.56.138.198
+2016-10-18 09:26:23 [root] INFO: 121.56.138.198: can not be used!
+2016-10-18 09:26:23 [root] INFO: valid ip: 218.20.236.50
+2016-10-18 09:26:28 [root] INFO: 218.20.236.50: can not be used!
+2016-10-18 09:26:28 [root] INFO: valid ip: 113.116.42.229
+2016-10-18 09:26:33 [root] INFO: 113.116.42.229: can not be used!
+2016-10-18 09:26:33 [root] INFO: valid ip: 221.229.204.231
+2016-10-18 09:26:38 [root] INFO: 221.229.204.231: can not be used!
+2016-10-18 09:26:38 [root] INFO: valid ip: 59.40.11.233
+2016-10-18 09:26:43 [root] INFO: 59.40.11.233: can not be used!
+2016-10-18 09:26:43 [root] INFO: valid ip: 113.79.25.190
+2016-10-18 09:26:43 [root] INFO: 113.79.25.190: can not be used!
+2016-10-18 09:26:43 [root] INFO: valid ip: 113.122.132.10
+2016-10-18 09:26:48 [root] INFO: 113.122.132.10: can not be used!
+2016-10-18 09:26:48 [scrapy] INFO: Crawled 41 pages (at 2 pages/min), scraped 536 items (at 14 items/min)
+2016-10-18 09:26:48 [root] INFO: valid ip: 123.96.168.135
+2016-10-18 09:26:48 [root] INFO: 123.96.168.135: can not be used!
+2016-10-18 09:26:48 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 09:26:48 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 09:26:48 [root] INFO: valid ip: 123.97.12.124
+2016-10-18 09:26:53 [root] INFO: 123.97.12.124: can not be used!
+2016-10-18 09:26:53 [root] INFO: valid ip: 121.31.103.185
+2016-10-18 09:26:58 [root] INFO: 121.31.103.185: can not be used!
+2016-10-18 09:26:58 [root] INFO: valid ip: 222.243.152.86
+2016-10-18 09:26:58 [root] INFO: 222.243.152.86: can not be used!
+2016-10-18 09:26:58 [root] INFO: valid ip: 183.158.4.165
+2016-10-18 09:26:58 [root] INFO: 183.158.4.165: can not be used!
+2016-10-18 09:26:58 [root] INFO: valid ip: 113.120.59.244
+2016-10-18 09:26:59 [root] INFO: 113.120.59.244: can not be used!
+2016-10-18 09:26:59 [root] INFO: valid ip: 61.128.184.139
+2016-10-18 09:27:04 [root] INFO: 61.128.184.139: can not be used!
+2016-10-18 09:27:04 [root] INFO: valid ip: 112.95.17.95
+2016-10-18 09:27:09 [root] INFO: 112.95.17.95: can not be used!
+2016-10-18 09:27:09 [root] INFO: valid ip: 166.111.152.65
+2016-10-18 09:27:14 [root] INFO: 166.111.152.65: can not be used!
+2016-10-18 09:27:14 [root] INFO: valid ip: 163.125.196.213
+2016-10-18 09:27:19 [root] INFO: 163.125.196.213: can not be used!
+2016-10-18 09:27:19 [root] INFO: valid ip: 61.143.158.238
+2016-10-18 09:27:24 [root] INFO: 61.143.158.238: can not be used!
+2016-10-18 09:27:24 [root] INFO: valid ip: 210.41.99.82
+2016-10-18 09:27:24 [root] INFO: 210.41.99.82: can not be used!
+2016-10-18 09:27:24 [root] INFO: valid ip: 58.251.196.95
+2016-10-18 09:27:29 [root] INFO: 58.251.196.95: can not be used!
+2016-10-18 09:27:29 [root] INFO: valid ip: 139.217.10.92
+2016-10-18 09:27:34 [root] INFO: 139.217.10.92: can not be used!
+2016-10-18 09:27:34 [root] INFO: valid ip: 115.151.95.175
+2016-10-18 09:27:34 [root] INFO: 115.151.95.175: can not be used!
+2016-10-18 09:27:34 [root] INFO: valid ip: 120.86.213.244
+2016-10-18 09:27:39 [root] INFO: 120.86.213.244: can not be used!
+2016-10-18 09:27:39 [root] INFO: valid ip: 116.252.23.200
+2016-10-18 09:27:44 [root] INFO: 116.252.23.200: can not be used!
+2016-10-18 09:27:44 [root] INFO: valid ip: 175.1.1.103
+2016-10-18 09:27:49 [root] INFO: 175.1.1.103: can not be used!
+2016-10-18 09:27:49 [root] INFO: valid ip: 1.193.177.243
+2016-10-18 09:27:54 [root] INFO: 1.193.177.243: can not be used!
+2016-10-18 09:27:54 [root] INFO: valid ip: 222.138.67.50
+2016-10-18 09:27:59 [root] INFO: 222.138.67.50: can not be used!
+2016-10-18 09:27:59 [scrapy] INFO: Crawled 42 pages (at 1 pages/min), scraped 557 items (at 21 items/min)
+2016-10-18 09:27:59 [root] INFO: valid ip: 116.19.123.155
+2016-10-18 09:28:04 [root] INFO: 116.19.123.155: can not be used!
+2016-10-18 09:28:04 [root] INFO: valid ip: 121.56.189.189
+2016-10-18 09:28:04 [root] INFO: 121.56.189.189: can not be used!
+2016-10-18 09:28:04 [root] INFO: valid ip: 59.38.27.146
+2016-10-18 09:28:09 [root] INFO: 59.38.27.146: can not be used!
+2016-10-18 09:28:09 [root] INFO: valid ip: 119.29.65.202
+2016-10-18 09:28:09 [root] INFO: 119.29.65.202: can not be used!
+2016-10-18 09:28:09 [root] INFO: valid ip: 116.252.23.200
+2016-10-18 09:28:14 [root] INFO: 116.252.23.200: can not be used!
+2016-10-18 09:28:14 [root] INFO: valid ip: 58.52.201.119
+2016-10-18 09:28:19 [root] INFO: 58.52.201.119: can not be used!
+2016-10-18 09:28:19 [root] INFO: valid ip: 171.39.33.40
+2016-10-18 09:28:24 [root] INFO: 171.39.33.40: can not be used!
+2016-10-18 09:28:24 [root] INFO: valid ip: 171.39.33.63
+2016-10-18 09:28:29 [root] INFO: 171.39.33.63: can not be used!
+2016-10-18 09:28:29 [root] INFO: valid ip: 222.183.122.173
+2016-10-18 09:28:29 [root] INFO: 222.183.122.173: can not be used!
+2016-10-18 09:28:29 [root] INFO: valid ip: 222.93.75.10
+2016-10-18 09:28:29 [root] INFO: 222.93.75.10: can not be used!
+2016-10-18 09:28:29 [root] INFO: valid ip: 120.132.2.201
+2016-10-18 09:28:29 [root] INFO: 120.132.2.201: can not be used!
+2016-10-18 09:28:29 [root] INFO: valid ip: 61.150.60.237
+2016-10-18 09:28:34 [root] INFO: 61.150.60.237: can not be used!
+2016-10-18 09:28:34 [root] INFO: valid ip: 111.200.97.235
+2016-10-18 09:28:39 [root] INFO: 111.200.97.235: can not be used!
+2016-10-18 09:28:39 [root] INFO: valid ip: 180.121.253.223
+2016-10-18 09:28:44 [root] INFO: 180.121.253.223: can not be used!
+2016-10-18 09:28:44 [scrapy] INFO: Crawled 43 pages (at 1 pages/min), scraped 571 items (at 14 items/min)
+2016-10-18 09:28:44 [root] INFO: valid ip: 111.126.166.197
+2016-10-18 09:28:44 [root] INFO: 111.126.166.197: can not be used!
+2016-10-18 09:28:44 [root] INFO: valid ip: 116.19.122.196
+2016-10-18 09:28:44 [root] INFO: 116.19.122.196: can not be used!
+2016-10-18 09:28:44 [root] INFO: valid ip: 113.116.211.196
+2016-10-18 09:28:49 [root] INFO: 113.116.211.196: can not be used!
+2016-10-18 09:28:49 [root] INFO: valid ip: 223.99.254.99
+2016-10-18 09:28:50 [root] INFO: 223.99.254.99: had been existed!
+2016-10-18 09:28:50 [root] INFO: valid ip: 221.199.158.76
+2016-10-18 09:28:55 [root] INFO: 221.199.158.76: can not be used!
+2016-10-18 09:28:55 [root] INFO: valid ip: 125.77.64.179
+2016-10-18 09:29:00 [root] INFO: 125.77.64.179: can not be used!
+2016-10-18 09:29:00 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 09:29:00 [root] INFO: 111.1.3.36: had been existed!
+2016-10-18 09:29:00 [root] INFO: valid ip: 61.150.12.144
+2016-10-18 09:29:05 [root] INFO: 61.150.12.144: can not be used!
+2016-10-18 09:29:05 [root] INFO: valid ip: 101.81.54.105
+2016-10-18 09:29:05 [root] INFO: 101.81.54.105: can not be used!
+2016-10-18 09:29:05 [root] INFO: valid ip: 14.110.121.54
+2016-10-18 09:29:10 [root] INFO: 14.110.121.54: can not be used!
+2016-10-18 09:29:10 [root] INFO: valid ip: 114.112.157.173
+2016-10-18 09:29:15 [root] INFO: 114.112.157.173: can not be used!
+2016-10-18 09:29:15 [root] INFO: valid ip: 115.210.249.172
+2016-10-18 09:29:16 [root] INFO: 115.210.249.172: can not be used!
+2016-10-18 09:29:16 [root] INFO: valid ip: 171.211.68.66
+2016-10-18 09:29:21 [root] INFO: 171.211.68.66: can not be used!
+2016-10-18 09:29:21 [root] INFO: valid ip: 114.112.157.173
+2016-10-18 09:29:26 [root] INFO: 114.112.157.173: can not be used!
+2016-10-18 09:29:26 [root] INFO: valid ip: 182.88.28.216
+2016-10-18 09:29:26 [root] INFO: 182.88.28.216: can not be used!
+2016-10-18 09:29:26 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 09:29:26 [root] INFO: 218.14.121.237: can not be used!
+2016-10-18 09:29:26 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 09:29:26 [root] INFO: 122.96.59.106: had been existed!
+2016-10-18 09:29:26 [root] INFO: valid ip: 58.250.185.83
+2016-10-18 09:29:31 [root] INFO: 58.250.185.83: can not be used!
+2016-10-18 09:29:31 [root] INFO: valid ip: 182.89.6.252
+2016-10-18 09:29:36 [root] INFO: 182.89.6.252: can not be used!
+2016-10-18 09:29:36 [root] INFO: valid ip: 183.141.123.145
+2016-10-18 09:29:41 [root] INFO: 183.141.123.145: can not be used!
+2016-10-18 09:29:41 [root] INFO: valid ip: 110.73.4.226
+2016-10-18 09:29:46 [root] INFO: 110.73.4.226: can not be used!
+2016-10-18 09:29:46 [root] INFO: valid ip: 124.88.67.30
+2016-10-18 09:29:52 [root] INFO: 124.88.67.30: can not be used!
+2016-10-18 09:29:52 [root] INFO: valid ip: 121.231.129.220
+2016-10-18 09:29:52 [root] INFO: 121.231.129.220: can not be used!
+2016-10-18 09:29:52 [root] INFO: valid ip: 119.7.80.167
+2016-10-18 09:29:57 [root] INFO: 119.7.80.167: can not be used!
+2016-10-18 09:29:57 [scrapy] INFO: Crawled 46 pages (at 3 pages/min), scraped 595 items (at 24 items/min)
+2016-10-18 09:29:57 [root] INFO: valid ip: 124.88.67.20
+2016-10-18 09:29:57 [root] INFO: 124.88.67.20added to MongoDB database!
+2016-10-18 09:29:57 [root] INFO: valid ip: 139.217.15.91
+2016-10-18 09:29:57 [root] INFO: 139.217.15.91: can not be used!
+2016-10-18 09:29:57 [root] INFO: valid ip: 219.150.189.212
+2016-10-18 09:30:02 [root] INFO: 219.150.189.212: can not be used!
+2016-10-18 09:30:02 [root] INFO: valid ip: 218.5.146.98
+2016-10-18 09:30:07 [root] INFO: 218.5.146.98: can not be used!
+2016-10-18 09:30:07 [root] INFO: valid ip: 114.219.140.69
+2016-10-18 09:30:12 [root] INFO: 114.219.140.69: can not be used!
+2016-10-18 09:30:12 [root] INFO: valid ip: 58.49.152.210
+2016-10-18 09:30:17 [root] INFO: 58.49.152.210: can not be used!
+2016-10-18 09:30:17 [root] INFO: valid ip: 39.166.147.2
+2016-10-18 09:30:22 [root] INFO: 39.166.147.2: can not be used!
+2016-10-18 09:30:22 [root] INFO: valid ip: 122.237.52.183
+2016-10-18 09:30:27 [root] INFO: 122.237.52.183: can not be used!
+2016-10-18 09:30:27 [root] INFO: valid ip: 115.200.47.61
+2016-10-18 09:30:32 [root] INFO: 115.200.47.61: can not be used!
+2016-10-18 09:30:32 [root] INFO: valid ip: 218.75.224.57
+2016-10-18 09:30:37 [root] INFO: 218.75.224.57: can not be used!
+2016-10-18 09:30:37 [root] INFO: valid ip: 182.244.136.204
+2016-10-18 09:30:42 [root] INFO: 182.244.136.204: can not be used!
+2016-10-18 09:30:43 [root] INFO: valid ip: 58.154.224.63
+2016-10-18 09:30:48 [root] INFO: 58.154.224.63: can not be used!
+2016-10-18 09:30:48 [root] INFO: valid ip: 115.29.170.58
+2016-10-18 09:30:49 [root] INFO: 115.29.170.58: can not be used!
+2016-10-18 09:30:49 [root] INFO: valid ip: 61.160.254.23
+2016-10-18 09:30:57 [root] INFO: 61.160.254.23: can not be used!
+2016-10-18 09:30:57 [root] INFO: valid ip: 58.218.213.54
+2016-10-18 09:31:02 [root] INFO: 58.218.213.54: can not be used!
+2016-10-18 09:31:02 [root] INFO: valid ip: 180.121.253.223
+2016-10-18 09:31:07 [root] INFO: 180.121.253.223: can not be used!
+2016-10-18 09:31:07 [scrapy] INFO: Crawled 48 pages (at 2 pages/min), scraped 611 items (at 16 items/min)
+2016-10-18 09:31:07 [root] INFO: valid ip: 183.129.178.14
+2016-10-18 09:31:09 [root] INFO: 183.129.178.14added to MongoDB database!
+2016-10-18 09:31:09 [root] INFO: valid ip: 49.68.97.120
+2016-10-18 09:31:14 [root] INFO: 49.68.97.120: can not be used!
+2016-10-18 09:31:14 [root] INFO: valid ip: 183.153.63.81
+2016-10-18 09:31:19 [root] INFO: 183.153.63.81: can not be used!
+2016-10-18 09:31:19 [root] INFO: valid ip: 120.132.2.201
+2016-10-18 09:31:19 [root] INFO: 120.132.2.201: can not be used!
+2016-10-18 09:31:19 [root] INFO: valid ip: 182.247.21.206
+2016-10-18 09:31:19 [root] INFO: 182.247.21.206: can not be used!
+2016-10-18 09:31:19 [root] INFO: valid ip: 183.140.83.70
+2016-10-18 09:31:24 [root] INFO: 183.140.83.70: can not be used!
+2016-10-18 09:31:24 [root] INFO: valid ip: 180.103.205.239
+2016-10-18 09:31:29 [root] INFO: 180.103.205.239: can not be used!
+2016-10-18 09:31:29 [root] INFO: valid ip: 114.232.130.47
+2016-10-18 09:31:34 [root] INFO: 114.232.130.47: can not be used!
+2016-10-18 09:31:34 [root] INFO: valid ip: 39.176.154.214
+2016-10-18 09:31:39 [root] INFO: 39.176.154.214: can not be used!
+2016-10-18 09:31:39 [root] INFO: valid ip: 59.66.134.99
+2016-10-18 09:31:44 [root] INFO: 59.66.134.99: can not be used!
+2016-10-18 09:31:44 [root] INFO: valid ip: 49.68.97.120
+2016-10-18 09:31:49 [root] INFO: 49.68.97.120: can not be used!
+2016-10-18 09:31:49 [root] INFO: valid ip: 183.156.64.72
+2016-10-18 09:31:54 [root] INFO: 183.156.64.72: can not be used!
+2016-10-18 09:31:54 [root] INFO: valid ip: 183.141.105.51
+2016-10-18 09:31:59 [root] INFO: 183.141.105.51: can not be used!
+2016-10-18 09:31:59 [root] INFO: valid ip: 58.22.206.202
+2016-10-18 09:32:04 [root] INFO: 58.22.206.202: can not be used!
+2016-10-18 09:32:04 [root] INFO: valid ip: 183.211.116.94
+2016-10-18 09:32:09 [root] INFO: 183.211.116.94: can not be used!
+2016-10-18 09:32:09 [root] INFO: valid ip: 59.62.17.186
+2016-10-18 09:32:09 [root] INFO: 59.62.17.186: can not be used!
+2016-10-18 09:32:09 [root] INFO: valid ip: 115.212.57.138
+2016-10-18 09:32:14 [root] INFO: 115.212.57.138: can not be used!
+2016-10-18 09:32:14 [scrapy] INFO: Crawled 48 pages (at 0 pages/min), scraped 628 items (at 17 items/min)
+2016-10-18 09:32:14 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:32:19 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 09:32:19 [root] INFO: valid ip: 180.121.255.79
+2016-10-18 09:32:24 [root] INFO: 180.121.255.79: can not be used!
+2016-10-18 09:32:24 [root] INFO: valid ip: 180.121.253.223
+2016-10-18 09:32:29 [root] INFO: 180.121.253.223: can not be used!
+2016-10-18 09:32:29 [root] INFO: valid ip: 182.37.252.151
+2016-10-18 09:32:34 [root] INFO: 182.37.252.151: can not be used!
+2016-10-18 09:32:34 [root] INFO: valid ip: 110.73.43.160
+2016-10-18 09:32:39 [root] INFO: 110.73.43.160: can not be used!
+2016-10-18 09:32:39 [root] INFO: valid ip: 114.97.4.235
+2016-10-18 09:32:44 [root] INFO: 114.97.4.235: can not be used!
+2016-10-18 09:32:44 [root] INFO: valid ip: 110.73.43.206
+2016-10-18 09:32:49 [root] INFO: 110.73.43.206: can not be used!
+2016-10-18 09:32:49 [root] INFO: valid ip: 114.104.130.183
+2016-10-18 09:32:54 [root] INFO: 114.104.130.183: can not be used!
+2016-10-18 09:32:54 [root] INFO: valid ip: 58.209.158.33
+2016-10-18 09:32:59 [root] INFO: 58.209.158.33: can not be used!
+2016-10-18 09:32:59 [root] INFO: valid ip: 166.111.66.220
+2016-10-18 09:33:04 [root] INFO: 166.111.66.220: can not be used!
+2016-10-18 09:33:04 [root] INFO: valid ip: 114.103.140.88
+2016-10-18 09:33:09 [root] INFO: 114.103.140.88: can not be used!
+2016-10-18 09:33:09 [root] INFO: valid ip: 124.88.67.30
+2016-10-18 09:33:14 [root] INFO: 124.88.67.30: can not be used!
+2016-10-18 09:33:14 [root] INFO: valid ip: 112.193.41.81
+2016-10-18 09:33:19 [root] INFO: 112.193.41.81: can not be used!
+2016-10-18 09:33:19 [scrapy] INFO: Crawled 48 pages (at 0 pages/min), scraped 641 items (at 13 items/min)
+2016-10-18 09:33:19 [root] INFO: valid ip: 180.114.4.64
+2016-10-18 09:33:25 [root] INFO: 180.114.4.64: can not be used!
+2016-10-18 09:33:25 [root] INFO: valid ip: 183.141.159.212
+2016-10-18 09:33:30 [root] INFO: 183.141.159.212: can not be used!
+2016-10-18 09:33:30 [root] INFO: valid ip: 120.237.158.48
+2016-10-18 09:33:35 [root] INFO: 120.237.158.48: can not be used!
+2016-10-18 09:33:35 [root] INFO: valid ip: 123.133.161.146
+2016-10-18 09:33:40 [root] INFO: 123.133.161.146: can not be used!
+2016-10-18 09:33:40 [root] INFO: valid ip: 119.98.69.40
+2016-10-18 09:33:40 [root] INFO: 119.98.69.40: can not be used!
+2016-10-18 09:33:40 [root] INFO: valid ip: 115.239.76.15
+2016-10-18 09:33:41 [root] INFO: 115.239.76.15: can not be used!
+2016-10-18 09:33:41 [root] INFO: valid ip: 115.212.57.138
+2016-10-18 09:33:46 [root] INFO: 115.212.57.138: can not be used!
+2016-10-18 09:33:46 [root] INFO: valid ip: 106.80.39.43
+2016-10-18 09:33:51 [root] INFO: 106.80.39.43: can not be used!
+2016-10-18 09:33:51 [root] INFO: valid ip: 58.32.79.84
+2016-10-18 09:33:56 [root] INFO: 58.32.79.84: can not be used!
+2016-10-18 09:33:56 [root] INFO: valid ip: 49.89.59.223
+2016-10-18 09:34:01 [root] INFO: 49.89.59.223: can not be used!
+2016-10-18 09:34:01 [root] INFO: valid ip: 110.73.4.185
+2016-10-18 09:34:06 [root] INFO: 110.73.4.185: can not be used!
+2016-10-18 09:34:06 [scrapy] INFO: Crawled 48 pages (at 0 pages/min), scraped 652 items (at 11 items/min)
+2016-10-18 09:34:06 [root] INFO: valid ip: 111.72.193.185
+2016-10-18 09:34:06 [root] INFO: 111.72.193.185: can not be used!
+2016-10-18 09:34:06 [root] INFO: valid ip: 219.131.180.164
+2016-10-18 09:34:11 [root] INFO: 219.131.180.164: can not be used!
+2016-10-18 09:34:11 [root] INFO: valid ip: 116.204.64.97
+2016-10-18 09:34:16 [root] INFO: 116.204.64.97: can not be used!
+2016-10-18 09:34:16 [root] INFO: valid ip: 120.27.121.245
+2016-10-18 09:34:16 [root] INFO: 120.27.121.245: can not be used!
+2016-10-18 09:34:16 [root] INFO: valid ip: 211.138.151.120
+2016-10-18 09:34:21 [root] INFO: 211.138.151.120: can not be used!
+2016-10-18 09:34:21 [root] INFO: valid ip: 27.19.97.155
+2016-10-18 09:34:26 [root] INFO: 27.19.97.155: can not be used!
+2016-10-18 09:34:26 [root] INFO: valid ip: 180.121.255.79
+2016-10-18 09:34:31 [root] INFO: 180.121.255.79: can not be used!
+2016-10-18 09:34:31 [root] INFO: valid ip: 182.108.239.250
+2016-10-18 09:34:36 [root] INFO: 182.108.239.250: can not be used!
+2016-10-18 09:34:36 [root] INFO: valid ip: 180.121.255.79
+2016-10-18 09:34:41 [root] INFO: 180.121.255.79: can not be used!
+2016-10-18 09:34:41 [root] INFO: valid ip: 60.25.12.100
+2016-10-18 09:34:46 [root] INFO: 60.25.12.100: can not be used!
+2016-10-18 09:34:46 [root] INFO: valid ip: 39.167.127.136
+2016-10-18 09:34:51 [root] INFO: 39.167.127.136: can not be used!
+2016-10-18 09:34:51 [root] INFO: valid ip: 211.102.210.155
+2016-10-18 09:34:51 [root] INFO: 211.102.210.155: can not be used!
+2016-10-18 09:34:51 [root] INFO: valid ip: 117.168.213.233
+2016-10-18 09:34:51 [root] INFO: 117.168.213.233: can not be used!
+2016-10-18 09:34:51 [root] INFO: valid ip: 124.17.26.89
+2016-10-18 09:34:57 [root] INFO: 124.17.26.89: can not be used!
+2016-10-18 09:34:57 [root] INFO: valid ip: 180.121.255.79
+2016-10-18 09:35:02 [root] INFO: 180.121.255.79: can not be used!
+2016-10-18 09:35:02 [scrapy] INFO: Crawled 49 pages (at 1 pages/min), scraped 667 items (at 15 items/min)
+2016-10-18 09:35:02 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 09:35:06 [root] INFO: 111.13.7.42: had been existed!
+2016-10-18 09:35:06 [root] INFO: valid ip: 42.123.77.14
+2016-10-18 09:35:11 [root] INFO: 42.123.77.14: can not be used!
+2016-10-18 09:35:11 [root] INFO: valid ip: 58.214.51.24
+2016-10-18 09:35:16 [root] INFO: 58.214.51.24: can not be used!
+2016-10-18 09:35:16 [root] INFO: valid ip: 115.225.255.58
+2016-10-18 09:35:21 [root] INFO: 115.225.255.58: can not be used!
+2016-10-18 09:35:21 [root] INFO: valid ip: 49.74.222.61
+2016-10-18 09:35:21 [root] INFO: 49.74.222.61: can not be used!
+2016-10-18 09:35:21 [root] INFO: valid ip: 106.110.218.110
+2016-10-18 09:35:26 [root] INFO: 106.110.218.110: can not be used!
+2016-10-18 09:35:26 [root] INFO: valid ip: 180.121.249.213
+2016-10-18 09:35:26 [root] INFO: 180.121.249.213: can not be used!
+2016-10-18 09:35:26 [root] INFO: valid ip: 119.102.181.56
+2016-10-18 09:35:31 [root] INFO: 119.102.181.56: can not be used!
+2016-10-18 09:35:31 [root] INFO: valid ip: 180.116.21.94
+2016-10-18 09:35:36 [root] INFO: 180.116.21.94: can not be used!
+2016-10-18 09:35:36 [root] INFO: valid ip: 125.85.217.161
+2016-10-18 09:35:36 [root] INFO: 125.85.217.161: can not be used!
+2016-10-18 09:35:36 [root] INFO: valid ip: 112.114.52.198
+2016-10-18 09:35:41 [root] INFO: 112.114.52.198: can not be used!
+2016-10-18 09:35:41 [root] INFO: valid ip: 180.121.253.223
+2016-10-18 09:35:46 [root] INFO: 180.121.253.223: can not be used!
+2016-10-18 09:35:46 [root] INFO: valid ip: 49.67.55.7
+2016-10-18 09:35:51 [root] INFO: 49.67.55.7: can not be used!
+2016-10-18 09:35:51 [root] INFO: valid ip: 144.52.130.81
+2016-10-18 09:35:56 [root] INFO: 144.52.130.81: can not be used!
+2016-10-18 09:35:56 [root] INFO: valid ip: 114.113.126.32
+2016-10-18 09:35:56 [root] INFO: 114.113.126.32: can not be used!
+2016-10-18 09:35:56 [scrapy] INFO: Crawled 50 pages (at 1 pages/min), scraped 682 items (at 15 items/min)
+2016-10-18 09:35:56 [root] INFO: valid ip: 159.226.165.101
+2016-10-18 09:35:56 [root] INFO: 159.226.165.101: can not be used!
+2016-10-18 09:35:56 [root] INFO: valid ip: 120.237.158.48
+2016-10-18 09:36:01 [root] INFO: 120.237.158.48: can not be used!
+2016-10-18 09:36:01 [root] INFO: valid ip: 49.67.55.7
+2016-10-18 09:36:06 [root] INFO: 49.67.55.7: can not be used!
+2016-10-18 09:36:06 [root] INFO: valid ip: 58.251.201.246
+2016-10-18 09:36:11 [root] INFO: 58.251.201.246: can not be used!
+2016-10-18 09:36:11 [root] INFO: valid ip: 58.251.207.190
+2016-10-18 09:36:16 [root] INFO: 58.251.207.190: can not be used!
+2016-10-18 09:36:16 [root] INFO: valid ip: 183.203.145.238
+2016-10-18 09:36:21 [root] INFO: 183.203.145.238: can not be used!
+2016-10-18 09:36:21 [root] INFO: valid ip: 117.163.3.89
+2016-10-18 09:36:26 [root] INFO: 117.163.3.89: can not be used!
+2016-10-18 09:36:26 [root] INFO: valid ip: 1.27.176.168
+2016-10-18 09:36:31 [root] INFO: 1.27.176.168: can not be used!
+2016-10-18 09:36:31 [root] INFO: valid ip: 175.153.232.233
+2016-10-18 09:36:36 [root] INFO: 175.153.232.233: can not be used!
+2016-10-18 09:36:36 [root] INFO: valid ip: 117.90.38.193
+2016-10-18 09:36:41 [root] INFO: 117.90.38.193: can not be used!
+2016-10-18 09:36:41 [root] INFO: valid ip: 123.96.136.247
+2016-10-18 09:36:46 [root] INFO: 123.96.136.247: can not be used!
+2016-10-18 09:36:46 [root] INFO: valid ip: 182.92.177.137
+2016-10-18 09:36:46 [root] INFO: 182.92.177.137: can not be used!
+2016-10-18 09:36:46 [root] INFO: valid ip: 113.24.46.110
+2016-10-18 09:36:51 [root] INFO: 113.24.46.110: can not be used!
+2016-10-18 09:36:51 [root] INFO: valid ip: 122.244.53.64
+2016-10-18 09:36:56 [root] INFO: 122.244.53.64: can not be used!
+2016-10-18 09:36:56 [root] INFO: valid ip: 163.125.196.186
+2016-10-18 09:37:01 [root] INFO: 163.125.196.186: can not be used!
+2016-10-18 09:37:01 [scrapy] INFO: Crawled 52 pages (at 2 pages/min), scraped 697 items (at 15 items/min)
+2016-10-18 09:37:01 [root] INFO: valid ip: 221.229.166.55
+2016-10-18 09:37:06 [root] INFO: 221.229.166.55: can not be used!
+2016-10-18 09:37:06 [root] INFO: valid ip: 58.22.206.202
+2016-10-18 09:37:11 [root] INFO: 58.22.206.202: can not be used!
+2016-10-18 09:37:11 [root] INFO: valid ip: 123.96.182.119
+2016-10-18 09:37:16 [root] INFO: 123.96.182.119: can not be used!
+2016-10-18 09:37:16 [root] INFO: valid ip: 59.40.165.102
+2016-10-18 09:37:21 [root] INFO: 59.40.165.102: can not be used!
+2016-10-18 09:37:21 [root] INFO: valid ip: 49.67.55.7
+2016-10-18 09:37:26 [root] INFO: 49.67.55.7: can not be used!
+2016-10-18 09:37:26 [root] INFO: valid ip: 49.67.55.200
+2016-10-18 09:37:27 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-10-18 09:37:27 [root] INFO: 49.67.55.200: can not be used!
+2016-10-18 09:37:27 [scrapy] INFO: Closing spider (shutdown)
+2016-10-18 09:37:27 [root] INFO: valid ip: 180.112.21.146
+2016-10-18 09:37:27 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-10-18 09:37:27 [root] INFO: 180.112.21.146: can not be used!
+2016-10-18 09:37:27 [root] INFO: valid ip: 171.38.203.213
+2016-10-18 09:37:32 [root] INFO: 171.38.203.213: can not be used!
+2016-10-18 09:37:32 [root] INFO: valid ip: 58.212.161.225
+2016-10-18 09:37:38 [root] INFO: 58.212.161.225: can not be used!
+2016-10-18 09:37:38 [root] INFO: valid ip: 218.92.221.2
+2016-10-18 09:37:38 [root] INFO: 218.92.221.2: can not be used!
+2016-10-18 09:37:38 [root] INFO: valid ip: 49.70.113.254
+2016-10-18 09:37:43 [root] INFO: 49.70.113.254: can not be used!
+2016-10-18 09:37:43 [root] INFO: valid ip: 36.47.215.73
+2016-10-18 09:37:43 [root] INFO: 36.47.215.73: can not be used!
+2016-10-18 09:37:43 [root] INFO: valid ip: 49.68.126.209
+2016-10-18 09:37:43 [root] INFO: 49.68.126.209: can not be used!
+2016-10-18 09:37:43 [root] INFO: valid ip: 117.82.253.183
+2016-10-18 09:37:48 [root] INFO: 117.82.253.183: can not be used!
+2016-10-18 09:37:48 [root] INFO: valid ip: 119.29.82.151
+2016-10-18 09:37:48 [root] INFO: 119.29.82.151: can not be used!
+2016-10-18 09:37:48 [scrapy] INFO: Crawled 52 pages (at 0 pages/min), scraped 712 items (at 15 items/min)
+2016-10-18 09:37:48 [root] INFO: valid ip: 59.175.40.194
+2016-10-18 09:37:53 [root] INFO: 59.175.40.194: can not be used!
+2016-10-18 09:37:53 [root] INFO: valid ip: 111.200.139.101
+2016-10-18 09:37:53 [root] INFO: 111.200.139.101: can not be used!
+2016-10-18 09:37:53 [root] INFO: valid ip: 113.250.108.165
+2016-10-18 09:37:58 [root] INFO: 113.250.108.165: can not be used!
+2016-10-18 09:37:58 [root] INFO: valid ip: 182.34.23.3
+2016-10-18 09:38:03 [root] INFO: 182.34.23.3: can not be used!
+2016-10-18 09:38:03 [root] INFO: valid ip: 123.97.10.91
+2016-10-18 09:38:03 [root] INFO: 123.97.10.91: can not be used!
+2016-10-18 09:38:03 [root] INFO: valid ip: 103.37.45.186
+2016-10-18 09:38:03 [root] INFO: 103.37.45.186: can not be used!
+2016-10-18 09:38:03 [root] INFO: valid ip: 183.239.173.138
+2016-10-18 09:38:08 [root] INFO: 183.239.173.138: can not be used!
+2016-10-18 09:38:08 [root] INFO: valid ip: 183.53.17.249
+2016-10-18 09:38:13 [root] INFO: 183.53.17.249: can not be used!
+2016-10-18 09:38:13 [root] INFO: valid ip: 111.123.73.173
+2016-10-18 09:38:18 [root] INFO: 111.123.73.173: can not be used!
+2016-10-18 09:38:18 [root] INFO: valid ip: 117.90.37.212
+2016-10-18 09:38:23 [root] INFO: 117.90.37.212: can not be used!
+2016-10-18 09:40:38 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-18 09:40:38 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-18 09:40:39 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-18 09:40:39 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-18 09:40:39 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-18 09:40:39 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-18 09:40:39 [scrapy] INFO: Spider opened
+2016-10-18 09:40:39 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-18 09:40:39 [root] INFO: valid ip: 114.99.15.176
+2016-10-18 09:40:39 [root] INFO: 114.99.15.176: can not be used!
+2016-10-18 09:40:39 [root] INFO: valid ip: 171.212.136.54
+2016-10-18 09:40:39 [root] INFO: 171.212.136.54: can not be used!
+2016-10-18 09:40:39 [root] INFO: valid ip: 123.152.99.206
+2016-10-18 09:40:40 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-10-18 09:40:41 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-10-18 09:40:46 [root] INFO: 123.152.99.206: can not be used!
+2016-10-18 09:40:46 [scrapy] INFO: Closing spider (shutdown)
+2016-10-18 09:40:46 [root] INFO: valid ip: 183.37.8.138
+2016-10-18 09:40:46 [root] INFO: 183.37.8.138: can not be used!
+2016-10-18 10:24:55 [scrapy] INFO: Scrapy 1.2.0 started (bot: proxyip)
+2016-10-18 10:24:55 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'proxyip.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['proxyip.spiders'], 'BOT_NAME': 'proxyip', 'COOKIES_ENABLED': False, 'LOG_FILE': './proxyip.log', 'DOWNLOAD_DELAY': 10}
+2016-10-18 10:24:55 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-18 10:24:55 [scrapy] INFO: Enabled downloader middlewares:
+['proxyip.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-18 10:24:55 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-18 10:24:56 [scrapy] INFO: Enabled item pipelines:
+['proxyip.pipelines.MongoDBPipeline', 'proxyip.pipelines.ProxyipPipeline']
+2016-10-18 10:24:56 [scrapy] INFO: Spider opened
+2016-10-18 10:24:56 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-18 10:24:56 [root] INFO: valid ip: 116.226.26.177
+2016-10-18 10:24:56 [root] INFO: 116.226.26.177: can not be used!
+2016-10-18 10:24:56 [root] INFO: valid ip: 114.99.15.176
+2016-10-18 10:24:56 [root] INFO: 114.99.15.176: can not be used!
+2016-10-18 10:24:56 [root] INFO: valid ip: 171.212.136.54
+2016-10-18 10:24:56 [root] INFO: 171.212.136.54: can not be used!
+2016-10-18 10:24:56 [root] INFO: valid ip: 123.152.99.206
+2016-10-18 10:25:01 [root] INFO: 123.152.99.206: can not be used!
+2016-10-18 10:25:01 [root] INFO: valid ip: 183.37.8.138
+2016-10-18 10:25:01 [root] INFO: 183.37.8.138: can not be used!
+2016-10-18 10:25:01 [root] INFO: valid ip: 117.162.38.196
+2016-10-18 10:25:06 [root] INFO: 117.162.38.196: can not be used!
+2016-10-18 10:25:06 [root] INFO: valid ip: 163.125.221.213
+2016-10-18 10:25:11 [root] INFO: 163.125.221.213: can not be used!
+2016-10-18 10:25:11 [root] INFO: valid ip: 223.99.254.99
+2016-10-18 10:25:11 [root] INFO: 223.99.254.99: had been existed!
+2016-10-18 10:25:11 [root] INFO: valid ip: 202.112.26.111
+2016-10-18 10:25:16 [root] INFO: 202.112.26.111: can not be used!
+2016-10-18 10:25:16 [root] INFO: valid ip: 110.73.4.221
+2016-10-18 10:25:21 [root] INFO: 110.73.4.221: can not be used!
+2016-10-18 10:25:21 [root] INFO: valid ip: 116.226.26.182
+2016-10-18 10:25:21 [root] INFO: 116.226.26.182: can not be used!
+2016-10-18 10:25:21 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 10:25:26 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 10:25:26 [root] INFO: valid ip: 219.150.189.212
+2016-10-18 10:25:31 [root] INFO: 219.150.189.212: can not be used!
+2016-10-18 10:25:31 [root] INFO: valid ip: 111.162.119.55
+2016-10-18 10:25:36 [root] INFO: 111.162.119.55: can not be used!
+2016-10-18 10:25:36 [root] INFO: valid ip: 218.106.205.145
+2016-10-18 10:25:37 [root] INFO: 218.106.205.145added to MongoDB database!
+2016-10-18 10:25:37 [root] INFO: valid ip: 115.28.32.191
+2016-10-18 10:25:42 [root] INFO: 115.28.32.191: can not be used!
+2016-10-18 10:25:42 [root] INFO: valid ip: 183.129.178.14
+2016-10-18 10:25:45 [root] INFO: 183.129.178.14added to MongoDB database!
+2016-10-18 10:25:45 [root] INFO: valid ip: 113.79.35.79
+2016-10-18 10:25:50 [root] INFO: 113.79.35.79: can not be used!
+2016-10-18 10:25:50 [root] INFO: valid ip: 221.212.216.170
+2016-10-18 10:25:51 [root] INFO: 221.212.216.170: can not be used!
+2016-10-18 10:25:51 [root] INFO: valid ip: 110.73.52.192
+2016-10-18 10:25:56 [root] INFO: 110.73.52.192: can not be used!
+2016-10-18 10:25:56 [root] INFO: valid ip: 139.196.140.9
+2016-10-18 10:26:01 [root] INFO: 139.196.140.9: can not be used!
+2016-10-18 10:26:01 [scrapy] INFO: Crawled 4 pages (at 4 pages/min), scraped 21 items (at 21 items/min)
+2016-10-18 10:26:01 [root] INFO: valid ip: 58.198.165.78
+2016-10-18 10:26:06 [root] INFO: 58.198.165.78: can not be used!
+2016-10-18 10:26:06 [root] INFO: valid ip: 211.161.194.220
+2016-10-18 10:26:06 [root] INFO: 211.161.194.220: can not be used!
+2016-10-18 10:26:06 [root] INFO: valid ip: 139.217.12.132
+2016-10-18 10:26:11 [root] INFO: 139.217.12.132: can not be used!
+2016-10-18 10:26:11 [root] INFO: valid ip: 49.66.114.119
+2016-10-18 10:26:16 [root] INFO: 49.66.114.119: can not be used!
+2016-10-18 10:26:16 [root] INFO: valid ip: 49.67.55.85
+2016-10-18 10:26:16 [root] INFO: 49.67.55.85: can not be used!
+2016-10-18 10:26:16 [root] INFO: valid ip: 114.227.39.143
+2016-10-18 10:26:16 [root] INFO: 114.227.39.143: can not be used!
+2016-10-18 10:26:16 [root] INFO: valid ip: 117.86.92.45
+2016-10-18 10:26:21 [root] INFO: 117.86.92.45: can not be used!
+2016-10-18 10:26:21 [root] INFO: valid ip: 171.38.167.40
+2016-10-18 10:26:26 [root] INFO: 171.38.167.40: can not be used!
+2016-10-18 10:26:26 [root] INFO: valid ip: 222.206.90.52
+2016-10-18 10:26:26 [root] INFO: 222.206.90.52: can not be used!
+2016-10-18 10:26:26 [root] INFO: valid ip: 118.202.10.159
+2016-10-18 10:26:31 [root] INFO: 118.202.10.159: can not be used!
+2016-10-18 10:26:31 [root] INFO: valid ip: 115.29.37.86
+2016-10-18 10:26:36 [root] INFO: 115.29.37.86: can not be used!
+2016-10-18 10:26:36 [root] INFO: valid ip: 121.31.102.138
+2016-10-18 10:26:41 [root] INFO: 121.31.102.138: can not be used!
+2016-10-18 10:26:41 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 10:26:46 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 10:26:46 [root] INFO: valid ip: 121.19.191.206
+2016-10-18 10:26:51 [root] INFO: 121.19.191.206: can not be used!
+2016-10-18 10:26:51 [root] INFO: valid ip: 27.210.209.192
+2016-10-18 10:26:56 [root] INFO: 27.210.209.192: can not be used!
+2016-10-18 10:26:56 [root] INFO: valid ip: 123.124.168.107
+2016-10-18 10:26:56 [root] INFO: 123.124.168.107: can not be used!
+2016-10-18 10:26:56 [root] INFO: valid ip: 183.141.157.201
+2016-10-18 10:27:01 [root] INFO: 183.141.157.201: can not be used!
+2016-10-18 10:27:01 [root] INFO: valid ip: 123.124.168.149
+2016-10-18 10:27:06 [root] INFO: 123.124.168.149: can not be used!
+2016-10-18 10:27:06 [scrapy] INFO: Crawled 6 pages (at 2 pages/min), scraped 39 items (at 18 items/min)
+2016-10-18 10:27:06 [root] INFO: valid ip: 125.83.192.131
+2016-10-18 10:27:06 [root] INFO: 125.83.192.131: can not be used!
+2016-10-18 10:27:06 [root] INFO: valid ip: 171.42.240.60
+2016-10-18 10:27:06 [root] INFO: 171.42.240.60: can not be used!
+2016-10-18 10:27:06 [root] INFO: valid ip: 223.106.35.184
+2016-10-18 10:27:11 [root] INFO: 223.106.35.184: can not be used!
+2016-10-18 10:27:11 [root] INFO: valid ip: 124.117.20.146
+2016-10-18 10:27:16 [root] INFO: 124.117.20.146: can not be used!
+2016-10-18 10:27:16 [root] INFO: valid ip: 120.132.90.233
+2016-10-18 10:27:20 [root] INFO: 120.132.90.233: can not be used!
+2016-10-18 10:27:20 [root] INFO: valid ip: 221.212.216.170
+2016-10-18 10:27:21 [root] INFO: 221.212.216.170: can not be used!
+2016-10-18 10:27:21 [root] INFO: valid ip: 183.141.150.97
+2016-10-18 10:27:26 [root] INFO: 183.141.150.97: can not be used!
+2016-10-18 10:27:26 [root] INFO: valid ip: 60.185.130.245
+2016-10-18 10:27:26 [root] INFO: 60.185.130.245: can not be used!
+2016-10-18 10:27:26 [root] INFO: valid ip: 14.154.145.10
+2016-10-18 10:27:26 [root] INFO: 14.154.145.10: can not be used!
+2016-10-18 10:27:26 [root] INFO: valid ip: 123.168.129.54
+2016-10-18 10:27:26 [root] INFO: 123.168.129.54: can not be used!
+2016-10-18 10:27:26 [root] INFO: valid ip: 175.154.84.58
+2016-10-18 10:27:26 [root] INFO: 175.154.84.58: can not be used!
+2016-10-18 10:27:26 [root] INFO: valid ip: 106.2.123.10
+2016-10-18 10:27:31 [root] INFO: 106.2.123.10: can not be used!
+2016-10-18 10:27:31 [root] INFO: valid ip: 183.57.17.194
+2016-10-18 10:27:31 [root] INFO: 183.57.17.194: can not be used!
+2016-10-18 10:27:31 [root] INFO: valid ip: 115.29.76.108
+2016-10-18 10:27:31 [root] INFO: 115.29.76.108added to MongoDB database!
+2016-10-18 10:27:31 [root] INFO: valid ip: 101.94.205.153
+2016-10-18 10:27:36 [root] INFO: 101.94.205.153: can not be used!
+2016-10-18 10:27:36 [root] INFO: valid ip: 42.159.153.7
+2016-10-18 10:27:41 [root] INFO: 42.159.153.7: can not be used!
+2016-10-18 10:27:41 [root] INFO: valid ip: 101.6.50.117
+2016-10-18 10:27:46 [root] INFO: 101.6.50.117: can not be used!
+2016-10-18 10:27:46 [root] INFO: valid ip: 115.159.92.253
+2016-10-18 10:27:51 [root] INFO: 115.159.92.253: can not be used!
+2016-10-18 10:27:51 [root] INFO: valid ip: 117.60.52.154
+2016-10-18 10:27:56 [root] INFO: 117.60.52.154: can not be used!
+2016-10-18 10:27:56 [root] INFO: valid ip: 111.206.218.4
+2016-10-18 10:27:56 [root] INFO: 111.206.218.4: can not be used!
+2016-10-18 10:27:56 [root] INFO: valid ip: 115.159.92.253
+2016-10-18 10:28:01 [root] INFO: 115.159.92.253: can not be used!
+2016-10-18 10:28:01 [root] INFO: valid ip: 106.82.154.45
+2016-10-18 10:28:06 [root] INFO: 106.82.154.45: can not be used!
+2016-10-18 10:28:06 [root] INFO: valid ip: 110.73.42.119
+2016-10-18 10:28:11 [root] INFO: 110.73.42.119: can not be used!
+2016-10-18 10:28:12 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 10:28:17 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 10:28:17 [root] INFO: valid ip: 222.82.222.242
+2016-10-18 10:28:17 [root] INFO: 222.82.222.242: can not be used!
+2016-10-18 10:28:17 [scrapy] INFO: Crawled 9 pages (at 3 pages/min), scraped 64 items (at 25 items/min)
+2016-10-18 10:28:17 [root] INFO: valid ip: 110.81.160.60
+2016-10-18 10:28:22 [root] INFO: 110.81.160.60: can not be used!
+2016-10-18 10:28:22 [root] INFO: valid ip: 182.241.46.50
+2016-10-18 10:28:22 [root] INFO: 182.241.46.50: can not be used!
+2016-10-18 10:28:22 [root] INFO: valid ip: 117.29.203.160
+2016-10-18 10:28:27 [root] INFO: 117.29.203.160: can not be used!
+2016-10-18 10:28:27 [root] INFO: valid ip: 117.170.6.54
+2016-10-18 10:28:32 [root] INFO: 117.170.6.54: can not be used!
+2016-10-18 10:28:32 [root] INFO: valid ip: 60.167.112.187
+2016-10-18 10:28:32 [root] INFO: 60.167.112.187: can not be used!
+2016-10-18 10:28:32 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 10:28:40 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 10:28:40 [root] INFO: valid ip: 124.17.26.91
+2016-10-18 10:28:45 [root] INFO: 124.17.26.91: can not be used!
+2016-10-18 10:28:45 [root] INFO: valid ip: 27.159.127.180
+2016-10-18 10:28:50 [root] INFO: 27.159.127.180: can not be used!
+2016-10-18 10:28:50 [root] INFO: valid ip: 119.125.116.77
+2016-10-18 10:28:50 [root] INFO: 119.125.116.77: can not be used!
+2016-10-18 10:28:50 [root] INFO: valid ip: 116.7.120.96
+2016-10-18 10:28:55 [root] INFO: 116.7.120.96: can not be used!
+2016-10-18 10:28:55 [root] INFO: valid ip: 123.124.168.149
+2016-10-18 10:29:00 [root] INFO: 123.124.168.149: can not be used!
+2016-10-18 10:29:00 [root] INFO: valid ip: 115.209.28.61
+2016-10-18 10:29:05 [root] INFO: 115.209.28.61: can not be used!
+2016-10-18 10:29:05 [root] INFO: valid ip: 219.141.25.173
+2016-10-18 10:29:05 [root] INFO: 219.141.25.173: can not be used!
+2016-10-18 10:29:05 [root] INFO: valid ip: 123.233.208.87
+2016-10-18 10:29:10 [root] INFO: 123.233.208.87: can not be used!
+2016-10-18 10:29:10 [root] INFO: valid ip: 218.14.121.237
+2016-10-18 10:29:10 [root] INFO: 218.14.121.237: can not be used!
+2016-10-18 10:29:10 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 10:29:10 [root] INFO: 122.96.59.106: had been existed!
+2016-10-18 10:29:10 [root] INFO: valid ip: 117.162.248.143
+2016-10-18 10:29:15 [root] INFO: 117.162.248.143: can not be used!
+2016-10-18 10:29:15 [scrapy] INFO: Crawled 9 pages (at 0 pages/min), scraped 81 items (at 17 items/min)
+2016-10-18 10:29:15 [root] INFO: valid ip: 60.185.143.194
+2016-10-18 10:29:20 [root] INFO: 60.185.143.194: can not be used!
+2016-10-18 10:29:20 [root] INFO: valid ip: 101.94.205.153
+2016-10-18 10:29:25 [root] INFO: 101.94.205.153: can not be used!
+2016-10-18 10:29:25 [root] INFO: valid ip: 183.141.158.163
+2016-10-18 10:29:30 [root] INFO: 183.141.158.163: can not be used!
+2016-10-18 10:29:30 [root] INFO: valid ip: 115.28.1.194
+2016-10-18 10:29:34 [root] INFO: 115.28.1.194: can not be used!
+2016-10-18 10:29:35 [root] INFO: valid ip: 125.124.131.6
+2016-10-18 10:29:35 [root] INFO: 125.124.131.6: can not be used!
+2016-10-18 10:29:35 [root] INFO: valid ip: 119.139.133.45
+2016-10-18 10:29:40 [root] INFO: 119.139.133.45: can not be used!
+2016-10-18 10:29:40 [root] INFO: valid ip: 115.46.95.130
+2016-10-18 10:29:45 [root] INFO: 115.46.95.130: can not be used!
+2016-10-18 10:29:45 [root] INFO: valid ip: 118.202.10.159
+2016-10-18 10:29:50 [root] INFO: 118.202.10.159: can not be used!
+2016-10-18 10:29:50 [root] INFO: valid ip: 182.89.6.23
+2016-10-18 10:29:55 [root] INFO: 182.89.6.23: can not be used!
+2016-10-18 10:29:55 [root] INFO: valid ip: 183.141.109.81
+2016-10-18 10:29:55 [root] INFO: 183.141.109.81: can not be used!
+2016-10-18 10:29:55 [root] INFO: valid ip: 122.96.59.106
+2016-10-18 10:29:58 [root] INFO: 122.96.59.106: had been existed!
+2016-10-18 10:29:58 [root] INFO: valid ip: 222.188.88.10
+2016-10-18 10:30:03 [root] INFO: 222.188.88.10: can not be used!
+2016-10-18 10:30:03 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 10:30:08 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 10:30:08 [root] INFO: valid ip: 123.152.79.171
+2016-10-18 10:30:13 [root] INFO: 123.152.79.171: can not be used!
+2016-10-18 10:30:13 [root] INFO: valid ip: 121.31.101.110
+2016-10-18 10:30:18 [root] INFO: 121.31.101.110: can not be used!
+2016-10-18 10:30:18 [root] INFO: valid ip: 182.90.59.182
+2016-10-18 10:30:23 [root] INFO: 182.90.59.182: can not be used!
+2016-10-18 10:30:23 [root] INFO: valid ip: 183.141.157.144
+2016-10-18 10:30:28 [root] INFO: 183.141.157.144: can not be used!
+2016-10-18 10:30:28 [scrapy] INFO: Crawled 10 pages (at 1 pages/min), scraped 98 items (at 17 items/min)
+2016-10-18 10:30:28 [root] INFO: valid ip: 171.39.34.79
+2016-10-18 10:30:33 [root] INFO: 171.39.34.79: can not be used!
+2016-10-18 10:30:33 [root] INFO: valid ip: 14.148.236.124
+2016-10-18 10:30:38 [root] INFO: 14.148.236.124: can not be used!
+2016-10-18 10:30:38 [root] INFO: valid ip: 202.43.147.226
+2016-10-18 10:30:38 [root] INFO: 202.43.147.226: can not be used!
+2016-10-18 10:30:38 [root] INFO: valid ip: 121.31.102.80
+2016-10-18 10:30:43 [root] INFO: 121.31.102.80: can not be used!
+2016-10-18 10:30:43 [root] INFO: valid ip: 222.138.67.50
+2016-10-18 10:30:48 [root] INFO: 222.138.67.50: can not be used!
+2016-10-18 10:30:48 [root] INFO: valid ip: 182.91.251.140
+2016-10-18 10:30:53 [root] INFO: 182.91.251.140: can not be used!
+2016-10-18 10:30:53 [root] INFO: valid ip: 182.88.185.73
+2016-10-18 10:30:58 [root] INFO: 182.88.185.73: can not be used!
+2016-10-18 10:30:58 [root] INFO: valid ip: 122.237.242.228
+2016-10-18 10:30:58 [root] INFO: 122.237.242.228: can not be used!
+2016-10-18 10:30:58 [root] INFO: valid ip: 171.39.24.219
+2016-10-18 10:31:03 [root] INFO: 171.39.24.219: can not be used!
+2016-10-18 10:31:03 [root] INFO: valid ip: 111.13.7.42
+2016-10-18 10:31:11 [root] INFO: 111.13.7.42: can not be used!
+2016-10-18 10:31:11 [root] INFO: valid ip: 60.182.9.79
+2016-10-18 10:31:11 [root] INFO: 60.182.9.79: can not be used!
+2016-10-18 10:31:11 [root] INFO: valid ip: 117.170.119.13
+2016-10-18 10:31:16 [root] INFO: 117.170.119.13: can not be used!
+2016-10-18 10:31:16 [root] INFO: valid ip: 121.56.188.234
+2016-10-18 10:31:21 [root] INFO: 121.56.188.234: can not be used!
+2016-10-18 10:31:21 [scrapy] INFO: Crawled 13 pages (at 3 pages/min), scraped 111 items (at 13 items/min)
+2016-10-18 10:31:21 [root] INFO: valid ip: 58.251.206.192
+2016-10-18 10:31:26 [root] INFO: 58.251.206.192: can not be used!
+2016-10-18 10:31:26 [root] INFO: valid ip: 117.86.82.76
+2016-10-18 10:31:31 [root] INFO: 117.86.82.76: can not be used!
+2016-10-18 10:31:31 [root] INFO: valid ip: 49.73.170.139
+2016-10-18 10:31:36 [root] INFO: 49.73.170.139: can not be used!
+2016-10-18 10:31:36 [root] INFO: valid ip: 124.42.7.103
+2016-10-18 10:31:44 [root] INFO: 124.42.7.103: can not be used!
+2016-10-18 10:31:44 [root] INFO: valid ip: 175.10.191.41
+2016-10-18 10:31:49 [root] INFO: 175.10.191.41: can not be used!
+2016-10-18 10:31:49 [root] INFO: valid ip: 222.172.132.102
+2016-10-18 10:31:54 [root] INFO: 222.172.132.102: can not be used!
+2016-10-18 10:31:54 [root] INFO: valid ip: 14.109.201.249
+2016-10-18 10:31:59 [root] INFO: 14.109.201.249: can not be used!
+2016-10-18 10:31:59 [root] INFO: valid ip: 115.28.2.233
+2016-10-18 10:32:07 [root] INFO: 115.28.2.233: can not be used!
+2016-10-18 10:32:07 [root] INFO: valid ip: 183.141.158.51
+2016-10-18 10:32:07 [root] INFO: 183.141.158.51: can not be used!
+2016-10-18 10:32:07 [root] INFO: valid ip: 218.0.188.137
+2016-10-18 10:32:07 [root] INFO: 218.0.188.137: can not be used!
+2016-10-18 10:32:07 [root] INFO: valid ip: 183.13.228.46
+2016-10-18 10:32:13 [root] INFO: 183.13.228.46: can not be used!
+2016-10-18 10:32:13 [root] INFO: valid ip: 123.233.208.87
+2016-10-18 10:32:14 [root] INFO: 123.233.208.87: can not be used!
+2016-10-18 10:32:14 [root] INFO: valid ip: 211.143.45.216
+2016-10-18 10:32:17 [root] INFO: 211.143.45.216added to MongoDB database!
+2016-10-18 10:32:17 [root] INFO: valid ip: 182.89.4.170
+2016-10-18 10:32:22 [root] INFO: 182.89.4.170: can not be used!
+2016-10-18 10:32:22 [root] INFO: valid ip: 58.214.157.153
+2016-10-18 10:32:27 [root] INFO: 58.214.157.153: can not be used!
+2016-10-18 10:32:27 [scrapy] INFO: Crawled 14 pages (at 1 pages/min), scraped 126 items (at 15 items/min)
+2016-10-18 10:32:27 [root] INFO: valid ip: 121.207.92.181
+2016-10-18 10:32:27 [root] INFO: 121.207.92.181: can not be used!
+2016-10-18 10:32:27 [root] INFO: valid ip: 180.125.88.198
+2016-10-18 10:32:32 [root] INFO: 180.125.88.198: can not be used!
+2016-10-18 10:32:32 [root] INFO: valid ip: 111.1.3.36
+2016-10-18 10:32:32 [root] INFO: 111.1.3.36: had been existed!
+2016-10-18 10:32:32 [root] INFO: valid ip: 112.112.149.53
+2016-10-18 10:32:37 [root] INFO: 112.112.149.53: can not be used!
+2016-10-18 10:32:37 [root] INFO: valid ip: 1.85.139.66
+2016-10-18 10:32:37 [root] INFO: 1.85.139.66: can not be used!
+2016-10-18 10:32:37 [root] INFO: valid ip: 101.19.92.253
+2016-10-18 10:32:42 [root] INFO: 101.19.92.253: can not be used!
+2016-10-18 10:32:42 [root] INFO: valid ip: 166.111.71.60
+2016-10-18 10:32:47 [root] INFO: 166.111.71.60: can not be used!
+2016-10-18 10:32:47 [root] INFO: valid ip: 111.13.7.42
